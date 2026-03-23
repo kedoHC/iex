@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 56" role="img" aria-labelledby="title">
+  <title id="title">IEX</title>
+  <rect width="200" height="56" rx="12" fill="#1a4db4"/>
+  <text x="100" y="36" text-anchor="middle" fill="#ffffff" font-family="system-ui,Segoe UI,sans-serif" font-size="22" font-weight="700">IEX</text>
+</svg>

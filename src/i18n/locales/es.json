@@ -1,0 +1,311 @@
+{
+  "brand": {
+    "name": "Instituto Educativo Xalapaño",
+    "tagline": "39 años de experiencia"
+  },
+  "nav": {
+    "home": "Inicio",
+    "programs": "Programas",
+    "admissions": "Admisiones",
+    "gallery": "Galería",
+    "events": "Eventos",
+    "partners": "Aliados",
+    "contact": "Contacto",
+    "contactCta": "Contacto",
+    "login": "Ingresar",
+    "ariaMain": "Principal",
+    "ariaMobile": "Móvil",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "menuTitle": "Menú",
+    "language": "Idioma"
+  },
+  "hero": {
+    "badge": "Inscripciones abiertas 2024",
+    "title": "Construyendo futuros brillantes",
+    "description": "En el IEX formamos personas íntegras con pensamiento crítico, valores sólidos y herramientas para destacar en un mundo en constante cambio.",
+    "ctaPrimary": "Ver más",
+    "ctaSecondary": "Contáctanos",
+    "overlayTitle": "Excelencia académica",
+    "overlaySubtitle": "Acompañamiento cercano en cada etapa.",
+    "stats": {
+      "years": "20+ años de experiencia",
+      "graduates": "10,000+ alumnos graduados",
+      "levels": "3 niveles educativos"
+    },
+    "slides": {
+      "0": {
+        "alt": "Estudiantes del IEX sonriendo en el plantel"
+      },
+      "1": {
+        "alt": "Niños y niñas participando en clase con su maestra"
+      },
+      "2": {
+        "alt": "Estudiantes de primaria colaborando en el aula"
+      },
+      "3": {
+        "alt": "Jóvenes estudiantes trabajando en equipo con laptops"
+      },
+      "4": {
+        "alt": "Estudiantes de secundaria en los pasillos del colegio"
+      }
+    }
+  },
+  "why": {
+    "title": "¿Por qué elegir el IEX?",
+    "excellenceTitle": "Excelencia académica",
+    "excellenceBody": "Nuestro modelo combina rigor académico, desarrollo socioemocional y experiencias que inspiran curiosidad. Cada estudiante recibe seguimiento personalizado para alcanzar su máximo potencial.",
+    "reasons": {
+      "qualifiedTeachers": "Docentes calificados",
+      "modernFacilities": "Infraestructura moderna",
+      "values": "Valores y convivencia",
+      "safeEnvironment": "Ambiente seguro",
+      "edTech": "Tecnología educativa",
+      "globalSkills": "Inglés y habilidades globales",
+      "sportsArts": "Deportes y arte",
+      "familySupport": "Acompañamiento familiar",
+      "steam": "Proyectos STEAM",
+      "leadership": "Liderazgo y oratoria"
+    },
+    "activities": {
+      "arts": {
+        "title": "Talleres artísticos",
+        "alt": "Estudiantes pintando y creando en taller de arte"
+      },
+      "classroom": {
+        "title": "Aula activa",
+        "alt": "Estudiantes participando en una clase dinámica"
+      },
+      "science": {
+        "title": "Ciencia y laboratorio",
+        "alt": "Estudiantes experimentando en laboratorio de ciencias"
+      }
+    }
+  },
+  "programs": {
+    "title": "Nuestros programas",
+    "cards": {
+      "preescolar": {
+        "level": "Nivel inicial",
+        "title": "Preescolar",
+        "description": "Primera experiencia escolar lúdica y segura que despierta la curiosidad y el amor por aprender.",
+        "features": [
+          "Estimulación temprana",
+          "Rutinas de convivencia",
+          "Inglés de exploración",
+          "Psicopedagogía"
+        ]
+      },
+      "primaria": {
+        "level": "Nivel básico",
+        "title": "Primaria",
+        "description": "Bases sólidas en lectoescritura, matemáticas y ciencias con proyecto colaborativo.",
+        "features": [
+          "Pensamiento matemático",
+          "Lectura crítica",
+          "Valores cívicos",
+          "Uso responsable de tecnología"
+        ]
+      },
+      "secundaria": {
+        "level": "Nivel medio",
+        "title": "Secundaria",
+        "description": "Fortalecemos autonomía, estudio y habilidades para la vida en un entorno acompañado.",
+        "features": [
+          "Laboratorios y STEAM",
+          "Orientación vocacional",
+          "Deportes y clubes",
+          "Inglés certificable"
+        ]
+      },
+      "bachillerato": {
+        "level": "Nivel superior",
+        "title": "Bachillerato",
+        "description": "Preparación para exámenes de admisión y retos universitarios con enfoque analítico.",
+        "features": [
+          "Simulacros y seguimiento",
+          "Proyectos de investigación",
+          "Becas y alianzas",
+          "Mentorías"
+        ]
+      }
+    }
+  },
+  "model": {
+    "title": "Modelo educativo integral",
+    "description": "Integramos aprendizajes académicos, formación en valores, deporte, arte y tecnología para que cada estudiante construya una visión clara de su futuro y las competencias para alcanzarla."
+  },
+  "admission": {
+    "title": "Proceso de admisión",
+    "steps": [
+      {
+        "titulo": "Solicitud de informes",
+        "descripcion": "Agenda una visita o solicita información por web o teléfono."
+      },
+      {
+        "titulo": "Entrevista familiar",
+        "descripcion": "Conocemos al estudiante y expectativas de la familia."
+      },
+      {
+        "titulo": "Evaluación diagnóstica",
+        "descripcion": "Valoración académica acorde al nivel solicitado."
+      },
+      {
+        "titulo": "Carta de resultados",
+        "descripcion": "Recibes retroalimentación y siguiente paso del proceso."
+      },
+      {
+        "titulo": "Inscripción y documentos",
+        "descripcion": "Entrega de papelería y apartado de lugar."
+      },
+      {
+        "titulo": "Bienvenida IEX",
+        "descripcion": "Integración y arranque del ciclo escolar."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¡Comienza el futuro de tu hijo hoy!",
+    "subtitle": "Te acompañamos en cada paso del proceso de admisión con claridad y cercanía.",
+    "button": "Más información"
+  },
+  "partners": {
+    "title": "Aliados y certificaciones",
+    "subtitle": "Respaldo institucional, reconocimientos oficiales y alianzas que fortalecen la propuesta educativa del IEX.",
+    "logoAlt": "Logotipo del Instituto Educativo Xalapaño",
+    "brandLine": "Identidad y trayectoria que respaldan cada etapa formativa",
+    "lead": "Nuestro modelo se sustenta en procesos claros, seguimiento pedagógico y vínculos con organismos que certifican la calidad y amplían oportunidades para estudiantes y familias.",
+    "body": "Mantenemos relación con instituciones educativas, certificadoras y redes profesionales que nos permiten actualizar prácticas, ofrecer programas alineados a estándares reconocidos y proyectar a nuestros alumnos hacia un entorno global.",
+    "closing": "La confianza de las familias se construye con transparencia, resultados y alianzas que demuestran nuestro compromiso con la excelencia.",
+    "items": {
+      "sep": "SEP",
+      "iso": "ISO 9001",
+      "cambridge": "Cambridge English",
+      "stem": "STEM",
+      "certA": "Certificación de calidad A",
+      "certB": "Certificación de calidad B",
+      "deporte": "Programa deportivo",
+      "alianza1": "Universidad aliada",
+      "alianza2": "Red de colegios",
+      "alianza3": "Alianza sector productivo"
+    }
+  },
+  "events": {
+    "pageTitle": "Eventos escolares",
+    "hero": {
+      "imageAlt": "Próximo evento principal en el campus",
+      "eyebrow": "Próximo evento",
+      "title": "Feria de ciencias y tecnología 2026",
+      "description": "Exposición de proyectos, experimentos y prototipos creados por alumnos de todas las secciones. Familias y comunidad invitadas.",
+      "meta": "15 de marzo · Gimnasio y patio central"
+    },
+    "pastSection": {
+      "title": "Eventos pasados",
+      "subtitle": "Momentos que marcan nuestra vida escolar: celebraciones, competencias, cultura y servicio."
+    },
+    "past": {
+      "graduacion": {
+        "title": "Ceremonia de graduación",
+        "caption": "Despedida de la generación 2024-2025 · Junio 2025"
+      },
+      "feriaCiencias": {
+        "title": "Feria de ciencias",
+        "caption": "Proyectos STEM y feria de inventos · Marzo 2025"
+      },
+      "olimpiada": {
+        "title": "Olimpiada deportiva",
+        "caption": "Interescolar de atletismo y equipos · Noviembre 2024"
+      },
+      "semanaCultural": {
+        "title": "Semana cultural",
+        "caption": "Teatro, música y danza en el auditorio · Octubre 2024"
+      },
+      "debate": {
+        "title": "Torneo de debate",
+        "caption": "Liga interprepas · Formación ciudadana · Mayo 2024"
+      },
+      "arte": {
+        "title": "Expo arte joven",
+        "caption": "Muestra de pintura y escultura estudiantil · Abril 2024"
+      },
+      "lectura": {
+        "title": "Maratón de lectura",
+        "caption": "Día del libro y clubes de lectura · Abril 2024"
+      },
+      "servicio": {
+        "title": "Jornada de servicio",
+        "caption": "Proyecto comunitario y campaña solidaria · Marzo 2024"
+      }
+    },
+    "commitment": {
+      "title": "Compromiso cultural",
+      "imageAlt": "Estudiantes en actividad artística y cultural en el colegio",
+      "lead": "En el IEX creemos que la educación integral incluye el arte, la identidad y el respeto por la diversidad. Nuestros eventos y proyectos culturales buscan que cada alumno descubra su voz, colabore con otros y se vincule de manera consciente con la comunidad.",
+      "body": "Promovemos lectura, música, teatro, exposiciones y jornadas de servicio como parte del currículo y de la vida escolar. Así formamos ciudadanos sensibles, críticos y solidarios, alineados con los valores de la institución y con un compromiso social real más allá del aula."
+    }
+  },
+  "gallery": {
+    "title": "Nuestra galería",
+    "items": {
+      "classroom": {
+        "alt": "Estudiantes en el aula participando en clase"
+      },
+      "elementary": {
+        "alt": "Niños de primaria aprendiendo juntos"
+      },
+      "teamwork": {
+        "alt": "Estudiantes colaborando en proyecto escolar"
+      },
+      "campus": {
+        "alt": "Grupo de estudiantes en el campus"
+      },
+      "reading": {
+        "alt": "Estudiante leyendo y estudiando"
+      },
+      "graduation": {
+        "alt": "Ceremonia de graduación de alumnos"
+      },
+      "hallway": {
+        "alt": "Estudiantes de secundaria en el pasillo"
+      },
+      "sports": {
+        "alt": "Equipo estudiantil de deportes en la cancha"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "items": {
+      "address": {
+        "title": "Dirección"
+      },
+      "phone": {
+        "title": "Teléfono"
+      },
+      "email": {
+        "title": "Correo"
+      },
+      "social": {
+        "title": "Redes sociales"
+      }
+    },
+    "whatsapp": "Enviar mensaje por WhatsApp",
+    "partnersHint": "Consulta la sección «Aliados y certificaciones» para ver certificaciones y aliados.",
+    "mapTitle": "Ubicación"
+  },
+  "footer": {
+    "about": "Formamos líderes con pensamiento crítico, valores y compromiso social en un entorno seguro y cercano.",
+    "institution": "Nuestra institución",
+    "contact": "Contacto",
+    "links": {
+      "about": "Nosotros",
+      "programs": "Programas",
+      "admissions": "Admisiones",
+      "gallery": "Galería",
+      "events": "Eventos",
+      "contact": "Contacto",
+      "partners": "Aliados y certificaciones"
+    },
+    "copyright": "© {{year}} Instituto de Excelencia. Todos los derechos reservados."
+  }
+}

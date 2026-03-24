@@ -13,12 +13,11 @@ import type { EnlaceNav, NavbarProps } from "@/interfaces/cabecera";
 
 const enlacesPorDefecto: EnlaceNav[] = [
   { href: "/#inicio", labelKey: "nav.home" },
-  { href: "/#programas", labelKey: "nav.programs" },
-  { href: "/#admisiones", labelKey: "nav.admissions" },
-  { href: "/#galeria", labelKey: "nav.gallery" },
-  { href: "/eventos", labelKey: "nav.events" },
+  { href: "/#programas", labelKey: "nav.academicOffer" },
+  { href: "/#becas", labelKey: "nav.admissionsAndScholarships" },
+  { href: "/#talleres-vespertinos", labelKey: "nav.schoolLife" },
+  { href: "/#docentes", labelKey: "nav.community" },
   { href: "/#contacto", labelKey: "nav.contact" },
-  { href: "/#aliados", labelKey: "nav.partners" },
 ];
 
 const cerrarMenu = (set: (v: boolean) => void) => () => set(false);
@@ -50,7 +49,7 @@ function EnlaceNavEscritorio({
 
 export function Navbar({ enlaces = enlacesPorDefecto }: NavbarProps) {
   const { t } = useTranslation();
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
   const [scrolled, setScrolled] = useState(false);
   const [menuAbierto, setMenuAbierto] = useState(false);
   const scrollYAlAbrir = useRef(0);
@@ -136,7 +135,11 @@ export function Navbar({ enlaces = enlacesPorDefecto }: NavbarProps) {
                   <div className="flex flex-1 flex-col gap-1 px-3 py-4">
                     {enlaces.map((enlace) => {
                       const activo =
-                        enlace.href === "/eventos" && pathname === "/eventos";
+                        enlace.href === "/eventos"
+                          ? pathname === "/eventos"
+                          : pathname === "/" &&
+                            (hash === enlace.href.replace("/", "") ||
+                              (enlace.href === "/#inicio" && !hash));
                       return (
                         <Link
                           key={enlace.href}
@@ -204,7 +207,13 @@ export function Navbar({ enlaces = enlacesPorDefecto }: NavbarProps) {
               key={enlace.href}
               enlace={enlace}
               etiqueta={t(enlace.labelKey)}
-              actual={enlace.href === "/eventos" && pathname === "/eventos"}
+              actual={
+                enlace.href === "/eventos"
+                  ? pathname === "/eventos"
+                  : pathname === "/" &&
+                    (hash === enlace.href.replace("/", "") ||
+                      (enlace.href === "/#inicio" && !hash))
+              }
             />
           ))}
         </nav>

@@ -7,6 +7,10 @@
     "home": "Home",
     "programs": "Programs",
     "admissions": "Admissions",
+    "academicOffer": "Academic offer",
+    "admissionsAndScholarships": "Admissions and scholarships",
+    "schoolLife": "School life",
+    "community": "Community",
     "gallery": "Gallery",
     "events": "Events",
     "partners": "Partners",
@@ -18,7 +22,8 @@
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "menuTitle": "Menu",
-    "language": "Language"
+    "language": "Language",
+    "scrollToTop": "Back to top"
   },
   "hero": {
     "badge": "Enrollments open 2024",
@@ -31,7 +36,7 @@
     "stats": {
       "years": "20+ years of experience",
       "graduates": "10,000+ graduates",
-      "levels": "3 educational levels"
+      "levels": "4 educational levels"
     },
     "slides": {
       "0": {
@@ -293,6 +298,70 @@
     "partnersHint": "See the «Partners and certifications» section for certifications and partners.",
     "mapTitle": "Location"
   },
+  "talleres": {
+    "title": "Afternoon workshops",
+    "subtitle": "After-school spaces to strengthen artistic, sports, and technology talents.",
+    "items": {
+      "artsMusic": {
+        "title": "Arts and music",
+        "description": "Painting, theater, and music ensemble activities to develop creativity, expression, and teamwork."
+      },
+      "scienceTech": {
+        "title": "Science and technology",
+        "description": "Educational robotics, lab sessions, and STEAM projects focused on real-world problem solving."
+      },
+      "sportsWellness": {
+        "title": "Sports and wellness",
+        "description": "Guided physical activities that build healthy habits, discipline, and positive community."
+      }
+    }
+  },
+  "docentes": {
+    "title": "Meet our teachers",
+    "subtitle": "An academic team with experience, close support, and continuous professional growth.",
+    "items": {
+      "innovation": {
+        "name": "Andrea Castillo, M.Ed.",
+        "role": "Innovation in learning",
+        "bio": "Designs active learning experiences that connect classroom work with real-world challenges."
+      },
+      "guidance": {
+        "name": "Rodrigo Hernandez, M.Ed.",
+        "role": "Guidance and social-emotional learning",
+        "bio": "Supports students and families in wellbeing, autonomy, and study habits."
+      },
+      "languages": {
+        "name": "Sofia Mendez, B.Ed.",
+        "role": "Bilingual program",
+        "bio": "Strengthens English communication through practical methods and interdisciplinary projects."
+      }
+    }
+  },
+  "becas": {
+    "title": "Scholarship program",
+    "subtitle": "Support options so more students can continue their education with excellence.",
+    "benefits": {
+      "merit": {
+        "title": "Academic merit scholarship",
+        "description": "Recognizes outstanding performance and student commitment."
+      },
+      "financial": {
+        "title": "Financial-need scholarship",
+        "description": "Partial support for families that need financial assistance throughout the school year."
+      },
+      "integral": {
+        "title": "Comprehensive talent scholarship",
+        "description": "For students who stand out in academic, artistic, or sports areas."
+      }
+    },
+    "cta": "Request scholarship information"
+  },
+  "buzon": {
+    "badge": "Community support",
+    "title": "Complaints and suggestions box",
+    "description": "A confidential channel to report situations, suggest improvements, and strengthen school wellbeing.",
+    "cta": "Send feedback"
+  },
   "footer": {
     "about": "We develop leaders with critical thinking, values, and social commitment in a safe, caring environment.",
     "institution": "Our school",
@@ -300,9 +369,13 @@
     "links": {
       "about": "About us",
       "programs": "Programs",
+      "workshops": "Afternoon workshops",
+      "teachers": "Teachers",
       "admissions": "Admissions",
+      "scholarships": "Scholarships",
       "gallery": "Gallery",
       "events": "Events",
+      "complaintsBox": "Complaints box",
       "contact": "Contact",
       "partners": "Partners and certifications"
     },

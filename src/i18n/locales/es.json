@@ -7,6 +7,10 @@
     "home": "Inicio",
     "programs": "Programas",
     "admissions": "Admisiones",
+    "academicOffer": "Oferta académica",
+    "admissionsAndScholarships": "Admisiones y becas",
+    "schoolLife": "Vida escolar",
+    "community": "Comunidad",
     "gallery": "Galería",
     "events": "Eventos",
     "partners": "Aliados",
@@ -18,7 +22,8 @@
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
     "menuTitle": "Menú",
-    "language": "Idioma"
+    "language": "Idioma",
+    "scrollToTop": "Volver arriba"
   },
   "hero": {
     "badge": "Inscripciones abiertas 2024",
@@ -31,7 +36,7 @@
     "stats": {
       "years": "20+ años de experiencia",
       "graduates": "10,000+ alumnos graduados",
-      "levels": "3 niveles educativos"
+      "levels": "4 niveles educativos"
     },
     "slides": {
       "0": {
@@ -293,6 +298,70 @@
     "partnersHint": "Consulta la sección «Aliados y certificaciones» para ver certificaciones y aliados.",
     "mapTitle": "Ubicación"
   },
+  "talleres": {
+    "title": "Talleres vespertinos",
+    "subtitle": "Espacios después de clase para potenciar talentos artísticos, deportivos y tecnológicos.",
+    "items": {
+      "artsMusic": {
+        "title": "Arte y música",
+        "description": "Pintura, teatro y ensamble musical para desarrollar creatividad, expresión y trabajo colaborativo."
+      },
+      "scienceTech": {
+        "title": "Ciencia y tecnología",
+        "description": "Robótica educativa, laboratorio y proyectos STEAM con enfoque en resolución de problemas reales."
+      },
+      "sportsWellness": {
+        "title": "Deporte y bienestar",
+        "description": "Actividades físicas guiadas que fortalecen hábitos saludables, disciplina y convivencia."
+      }
+    }
+  },
+  "docentes": {
+    "title": "Conoce a nuestros docentes",
+    "subtitle": "Equipo académico con experiencia, acompañamiento cercano y formación continua.",
+    "items": {
+      "innovation": {
+        "name": "Mtra. Andrea Castillo",
+        "role": "Coordinación de innovación pedagógica",
+        "bio": "Diseña experiencias de aprendizaje activas para conectar el aula con retos del mundo actual."
+      },
+      "guidance": {
+        "name": "Mtro. Rodrigo Hernández",
+        "role": "Tutoría y desarrollo socioemocional",
+        "bio": "Acompaña a las familias y al alumnado en procesos de bienestar, autonomía y hábitos de estudio."
+      },
+      "languages": {
+        "name": "Mtra. Sofía Méndez",
+        "role": "Programa bilingüe",
+        "bio": "Fortalece la comunicación en inglés con metodologías prácticas y proyectos interdisciplinarios."
+      }
+    }
+  },
+  "becas": {
+    "title": "Programa de becas",
+    "subtitle": "Opciones de apoyo para que más estudiantes continúen su formación con excelencia.",
+    "benefits": {
+      "merit": {
+        "title": "Beca por mérito académico",
+        "description": "Reconoce el esfuerzo y desempeño sobresaliente de estudiantes comprometidos."
+      },
+      "financial": {
+        "title": "Beca socioeconómica",
+        "description": "Apoyo parcial para familias que requieren acompañamiento financiero en su trayectoria escolar."
+      },
+      "integral": {
+        "title": "Beca integral de talento",
+        "description": "Para estudiantes destacados en áreas académicas, artísticas o deportivas."
+      }
+    },
+    "cta": "Solicitar información de becas"
+  },
+  "buzon": {
+    "badge": "Atención a la comunidad",
+    "title": "Buzón de quejas y sugerencias",
+    "description": "Canal confidencial para reportar situaciones, proponer mejoras y fortalecer el ambiente escolar.",
+    "cta": "Enviar comentario"
+  },
   "footer": {
     "about": "Formamos líderes con pensamiento crítico, valores y compromiso social en un entorno seguro y cercano.",
     "institution": "Nuestra institución",
@@ -300,9 +369,13 @@
     "links": {
       "about": "Nosotros",
       "programs": "Programas",
+      "workshops": "Talleres vespertinos",
+      "teachers": "Docentes",
       "admissions": "Admisiones",
+      "scholarships": "Becas",
       "gallery": "Galería",
       "events": "Eventos",
+      "complaintsBox": "Buzón de quejas",
       "contact": "Contacto",
       "partners": "Aliados y certificaciones"
     },

@@ -8,9 +8,13 @@
     "programs": "Programas",
     "admissions": "Admisiones",
     "academicOffer": "Oferta académica",
-    "admissionsAndScholarships": "Admisiones y becas",
-    "schoolLife": "Vida escolar",
-    "community": "Comunidad",
+    "menuGroupAcademic": "Académica",
+    "menuGroupAdmissions": "Admisiones y becas",
+    "workshops": "Talleres vespertinos",
+    "epic": "EPIC",
+    "teachers": "Docentes",
+    "admissionsPage": "Proceso de admisión",
+    "scholarshipsPage": "Programa de becas",
     "gallery": "Galería",
     "events": "Eventos",
     "partners": "Aliados",
@@ -134,6 +138,194 @@
           "Mentorías"
         ]
       }
+    },
+    "cardLinkAria": "Ver programa: {{title}}"
+  },
+  "programPages": {
+    "preescolar": {
+      "pageTitle": "Preescolar",
+      "hero": {
+        "imageAlt": "Niños explorando y aprendiendo en el aula de preescolar",
+        "eyebrow": "Nivel inicial",
+        "title": "Primeros años con juego, rutinas y mucho cariño",
+        "description": "Ambientes seguros donde el lenguaje, la motricidad y la convivencia se cultivan con maestras especializadas y seguimiento cercano a cada familia.",
+        "meta": "Aula multi-sensorial · Estimulación temprana · Inglés de exploración"
+      },
+      "blocks": {
+        "propuesta": {
+          "title": "Propuesta pedagógica",
+          "lead": "Partimos del juego significativo, rutinas claras y experiencias que despiertan curiosidad sin apuro.",
+          "body": "Planificamos secuencias cortas con material concreto, música, rima y cuento. Cada semana hay momentos de asamblea, exploración al aire libre y proyectos chicos que conectan con la vida cotidiana del niño.",
+          "imageAlt": "Niños pintando y jugando en el aula"
+        },
+        "ambientes": {
+          "title": "Ambientes y materiales",
+          "lead": "Espacios luminosos, rincones temáticos y materiales seguros invitan a explorar con autonomía guiada.",
+          "body": "Rotamos estaciones de arte, construcción, lectura y dramatización. Los objetos están a la altura del niño para fortalecer decisión, orden y cuidado del entorno, siempre supervisados.",
+          "imageAlt": "Salón de preescolar con rincones de aprendizaje"
+        },
+        "familia": {
+          "title": "Puente con la familia",
+          "lead": "Comunicación breve y constante: bitácoras, entrevistas y espacios de escucha.",
+          "body": "Psicopedagogía acompaña el proceso de adaptación y da orientaciones prácticas. Celebramos logros en comunidad y alineamos hábitos de sueño, alimentación y convivencia entre casa y escuela.",
+          "imageAlt": "Maestra saludando a padres de familia en la entrada"
+        }
+      },
+      "cta": {
+        "title": "Conoce fechas de ingreso y visita guiada",
+        "body": "Te explicamos el proceso de admisión para el nivel inicial y resolvemos dudas sobre grupo y horarios.",
+        "primary": "Ir a admisiones",
+        "secondary": "Escribir a contacto"
+      }
+    },
+    "primaria": {
+      "pageTitle": "Primaria",
+      "hero": {
+        "imageAlt": "Estudiantes de primaria participando en clase",
+        "eyebrow": "Nivel básico",
+        "title": "Bases sólidas en lectura, matemáticas y ciudadanía",
+        "description": "Fortalecemos pensamiento lógico, lectura comprensiva y valores en un ambiente activo con tecnología responsable y proyectos colaborativos.",
+        "meta": "Seguimiento por grado · Evaluación formativa · Clubes opcionales"
+      },
+      "blocks": {
+        "bases": {
+          "title": "Lectoescritura y matemáticas",
+          "lead": "Rutinas de lectura diaria, problemas contextualizados y talleres de expresión oral.",
+          "body": "Usamos textos variados y estrategias visuales para comprender y argumentar. En matemáticas priorizamos el sentido numérico, estimación y resolución colaborativa antes del algoritmo.",
+          "imageAlt": "Alumnos de primaria leyendo en círculo con su maestra"
+        },
+        "proyectos": {
+          "title": "Proyectos y trabajo en equipo",
+          "lead": "Integración de ciencias, arte y lengua en retos de varias semanas con entrega pública.",
+          "body": "Los equipos rotan roles, documentan avances y reflexionan sobre lo aprendido. Así practican comunicación, empatía y responsabilidad compartida acorde a su edad.",
+          "imageAlt": "Estudiantes presentando un proyecto con cartulinas"
+        },
+        "tecnologia": {
+          "title": "Tecnología con propósito",
+          "lead": "Tabletas y aula digital se usan con guiones claros y acuerdos de ciudadanía digital.",
+          "body": "Enfatizamos búsqueda crítica de información, diseño sencillo y uso respetuoso de dispositivos. Hay tiempos sin pantalla para equilibrio y atención plena.",
+          "imageAlt": "Niños usando tablets en parejas bajo supervisión"
+        }
+      },
+      "cta": {
+        "title": "¿Tu hijo entrará a primaria?",
+        "body": "Agenda informes, conoce el plan por grado y revisa requisitos de documentación.",
+        "primary": "Ir a admisiones",
+        "secondary": "Escribir a contacto"
+      }
+    },
+    "secundaria": {
+      "pageTitle": "Secundaria",
+      "hero": {
+        "imageAlt": "Estudiantes de secundaria en actividad grupal",
+        "eyebrow": "Nivel medio",
+        "title": "Autonomía, estudio y acompañamiento en la adolescencia",
+        "description": "Combinamos rigor académico, STEAM, deporte y orientación vocacional para que cada estudiante encuentre su rumbo con confianza.",
+        "meta": "Laboratorios · Clubes deportivos · Inglés progresivo"
+      },
+      "blocks": {
+        "steam": {
+          "title": "Ciencia, arte y tecnología",
+          "lead": "Experimentos guiados, prototipos y concurso interno de proyectos interdisciplinarios.",
+          "body": "Trabajamos competencias del siglo XXI: hipótesis, prueba y error, presentación de resultados. Los docentes conectan contenidos con problemas cercanos a la realidad regional.",
+          "imageAlt": "Estudiantes en laboratorio manipulando materiales"
+        },
+        "vocacional": {
+          "title": "Orientación y bienestar",
+          "lead": "Tutorías cargan metas personales, hábitos de estudio y primeras decisiones vocacionales.",
+          "body": "Talleres de habilidades socioemocionales, manejo del tiempo y manejo del estrés ante exámenes. Acompañamos conversaciones con familias en momentos clave.",
+          "imageAlt": "Orientador hablando con estudiantes en pasillo"
+        },
+        "comunidad": {
+          "title": "Liderazgo y servicio",
+          "lead": "Equipos estudiantiles, debate y proyectos de impacto en la comunidad escolar.",
+          "body": "Fomentamos voz respetuosa, mediación entre pares y celebración de la diversidad. Hay espacios para deporte, música y voluntariado breve.",
+          "imageAlt": "Grupo de adolescentes organizando una actividad cultural"
+        }
+      },
+      "cta": {
+        "title": "Planifica la transición a secundaria",
+        "body": "Conoce malla, horarios de laboratorio y opciones de clubes para el ciclo entrante.",
+        "primary": "Ir a admisiones",
+        "secondary": "Escribir a contacto"
+      }
+    },
+    "bachillerato": {
+      "pageTitle": "Bachillerato",
+      "hero": {
+        "imageAlt": "Estudiantes de bachillerato estudiando en preparación universitaria",
+        "eyebrow": "Nivel superior",
+        "title": "Preparación seria para la universidad y la vida profesional",
+        "description": "Simulacros, investigación, mentorías y refuerzo en áreas críticas para exámenes de admisión sin descuidar formación integral.",
+        "meta": "Simulacros periódicos · Asesorías · Becas y alianzas"
+      },
+      "blocks": {
+        "excelencia": {
+          "title": "Exigencia académica con apoyo",
+          "lead": "Planeación semestral, rúbricas transparentes y asesorías programadas antes de evaluaciones altas.",
+          "body": "Te damos retroalimentación accionable en matemáticas, lectura y ciencias. Priorizamos razonamiento y argumentación escritas, competencias centrales en exámenes de selección.",
+          "imageAlt": "Alumnos en aula tomando apuntes concentrados"
+        },
+        "investigacion": {
+          "title": "Proyectos de investigación",
+          "lead": "Monografía corta o proyecto aplicado con asesor docente y entrega tipo feria.",
+          "body": "Aprendes a citar fuentes, sintetizar evidencia y exponer con lenguaje claro. Es una muestra del nivel universitario que enfrentarás después del IEX.",
+          "imageAlt": "Estudiante exponiendo investigación ante compañeros"
+        },
+        "universidad": {
+          "title": "Puente a la universidad",
+          "lead": "Simulacros estilo admisión, talleres de elección de carrera y charlas con egresados.",
+          "body": "Mapeamos fortalezas y opciones realistas. Si aplicas a becas institucionales, te orientamos en requisitos y fechas sin perder el ritmo académico.",
+          "imageAlt": "Estudiantes revisando guías universitarias juntos"
+        }
+      },
+      "cta": {
+        "title": "Da el siguiente paso hacia la universidad",
+        "body": "Revisa calendario de simulacros y perfil de ingreso para bachillerato.",
+        "primary": "Ir a admisiones",
+        "secondary": "Escribir a contacto"
+      }
+    },
+    "epic": {
+      "pageTitle": "EPIC",
+      "hero": {
+        "imageAlt": "Niños usando tecnología inmersiva para aprender en el aula",
+        "eyebrow": "Programa EPIC",
+        "title": "Inglés, realidad aumentada, robótica y programación",
+        "description": "Una experiencia donde las niñas y los niños practican inglés con lentes de realidad aumentada, ensamblan y programan robots, y desarrollan lógica computacional desde proyectos concretos y divertidos.",
+        "meta": "AR + inglés · Robótica · Código creativo · Trabajo en equipo"
+      },
+      "blocks": {
+        "arIngles": {
+          "title": "Inglés con realidad aumentada",
+          "lead": "Escenarios y personajes digitales acompañan la pronunciación, el vocabulario y la comprensión oral.",
+          "body": "Con lentes de RA los estudiantes dialogan en contextos simulados, juegan desafíos lingüísticos y reciben retroalimentación inmediata. Así ganan confianza para hablar inglés sin miedo al error, como en un laboratorio de idiomas viviente.",
+          "imageAlt": "Niño con gafas de realidad aumentada concentrado en una actividad"
+        },
+        "robotica": {
+          "title": "Robótica educativa",
+          "lead": "Construir, probar y ajustar: aprenden mecánica básica, sensores y trabajo en equipo.",
+          "body": "Diseñan soluciones a retos sencillos con kits pedagógicos: seguir líneas, esquivar obstáculos o completar una misión grupal. El aula funciona como taller donde probar hipótesis y celebrar cada prototipo que funciona.",
+          "imageAlt": "Mano ajustando un brazo robótico educativo en un taller"
+        },
+        "programacion": {
+          "title": "Programación y pensamiento lógico",
+          "lead": "Secuencias, condiciones y bucles se vuelven visuales antes de escribir código.",
+          "body": "Partimos de bloques y actividades guiadas hasta pequeños programas que controlan robots o animaciones. Priorizamos el pensamiento algorítmico, la depuración paciente y el respeto por el trabajo ajeno al compartir proyectos.",
+          "imageAlt": "Pantalla con líneas de código y recurso educativo de programación"
+        }
+      },
+      "marquee": {
+        "ariaLabel": "Galería de momentos del programa EPIC con tecnología y aula activa",
+        "title": "Así se vive EPIC en el aula",
+        "lead": "Talleres, prototipos y colaboración: un carril de imágenes que muestra el ritmo del programa."
+      },
+      "cta": {
+        "title": "¿Te interesa EPIC para tu hijo o hija?",
+        "body": "Pregunta por cupos, edades recomendadas y cómo integrar el programa con la oferta académica del IEX.",
+        "primary": "Ir a admisiones",
+        "secondary": "Escribir a contacto"
+      }
     }
   },
   "model": {
@@ -251,6 +443,13 @@
   },
   "gallery": {
     "title": "Nuestra galería",
+    "openImage": "Ver imagen a tamaño completo: {{caption}}",
+    "lightbox": {
+      "close": "Cerrar vista ampliada",
+      "closeBackdrop": "Cerrar galería",
+      "next": "Imagen siguiente",
+      "prev": "Imagen anterior"
+    },
     "items": {
       "classroom": {
         "alt": "Estudiantes en el aula participando en clase"
@@ -298,63 +497,225 @@
     "partnersHint": "Consulta la sección «Aliados y certificaciones» para ver certificaciones y aliados.",
     "mapTitle": "Ubicación"
   },
-  "talleres": {
-    "title": "Talleres vespertinos",
-    "subtitle": "Espacios después de clase para potenciar talentos artísticos, deportivos y tecnológicos.",
-    "items": {
-      "artsMusic": {
-        "title": "Arte y música",
-        "description": "Pintura, teatro y ensamble musical para desarrollar creatividad, expresión y trabajo colaborativo."
+  "pages": {
+    "workshops": {
+      "pageTitle": "Talleres vespertinos",
+      "hero": {
+        "imageAlt": "Estudiantes participando en un taller extracurricular en el campus",
+        "eyebrow": "Vida escolar",
+        "title": "Aprendizaje que continúa después de clase",
+        "description": "Talleres vespertinos para explorar arte, ciencia, deporte y tecnología con guía especializada, en un ambiente seguro y motivador.",
+        "meta": "Inscripción por ciclo · Cupos limitados por grupo"
       },
-      "scienceTech": {
-        "title": "Ciencia y tecnología",
-        "description": "Robótica educativa, laboratorio y proyectos STEAM con enfoque en resolución de problemas reales."
+      "blocks": {
+        "horario": {
+          "title": "Horario y ritmo escolar",
+          "lead": "Los talleres se imparten al finalizar la jornada regular, respetando descansos y tiempos de traslado dentro del plantel.",
+          "body": "Cada experiencia está diseñada en bloques de 60 a 90 minutos, con materiales incluidos y lista de útiles clara desde el primer día. Así las familias pueden planificar llegadas y salidas sin sorpresas.",
+          "imageAlt": "Sala de arte con caballetes y estudiantes pintando"
+        },
+        "oferta": {
+          "title": "Catálogo de experiencias",
+          "lead": "Combinamos expresión artística, laboratorio STEAM, oratoria, robótica educativa y deporte formativo.",
+          "body": "Los contenidos se renuevan por ciclo escolar según intereses del alumnado y alianzas con instructores invitados. Te compartimos la cartelera antes del periodo de inscripción para que elijas en familia.",
+          "imageAlt": "Estudiantes en feria de ciencias con proyectos en mesas"
+        },
+        "comunidad": {
+          "title": "Valor formativo y convivencia",
+          "lead": "Los talleres fortalecen responsabilidad compartida, liderazgo y trabajo en equipo más allá de la calificación.",
+          "body": "Promovemos retroalimentación con docentes tutoras, muestras abiertas a familias y cierre con reconocimientos que celebran el proceso. La meta es cultivar hábitos de constancia y curiosidad duradera.",
+          "imageAlt": "Grupo de estudiantes aplaudiendo en presentación cultural"
+        }
       },
-      "sportsWellness": {
-        "title": "Deporte y bienestar",
-        "description": "Actividades físicas guiadas que fortalecen hábitos saludables, disciplina y convivencia."
-      }
-    }
-  },
-  "docentes": {
-    "title": "Conoce a nuestros docentes",
-    "subtitle": "Equipo académico con experiencia, acompañamiento cercano y formación continua.",
-    "items": {
-      "innovation": {
-        "name": "Mtra. Andrea Castillo",
-        "role": "Coordinación de innovación pedagógica",
-        "bio": "Diseña experiencias de aprendizaje activas para conectar el aula con retos del mundo actual."
+      "video": {
+        "title": "Talleres y creatividad en la escuela",
+        "description": "Este video de referencia (charla TED, en inglés con subtítulos opcionales en YouTube) reflexiona sobre cómo cultivar la creatividad en la educación — una idea cercana al espíritu de nuestros talleres.",
+        "iframeTitle": "Video de YouTube: creatividad y educación",
+        "caption": "Contenido externo alojado en YouTube. Puedes sustituir el enlace en el código por material audiovisual propio del IEX."
       },
-      "guidance": {
-        "name": "Mtro. Rodrigo Hernández",
-        "role": "Tutoría y desarrollo socioemocional",
-        "bio": "Acompaña a las familias y al alumnado en procesos de bienestar, autonomía y hábitos de estudio."
+      "available": {
+        "title": "Talleres disponibles",
+        "subtitle": "Categorías abiertas por ciclo escolar; la coordinación confirma grupo, edad mínima y cupo.",
+        "items": {
+          "futbol": {
+            "title": "Fútbol",
+            "description": "Entrenamiento formativo con énfasis en resistencia, trabajo en equipo y fair play. Calentamiento técnico, circuitos y partidos reducidos."
+          },
+          "arte": {
+            "title": "Arte",
+            "description": "Taller de expresión plástica: dibujo, pintura y mezcla de materiales. Pequeñas exposiciones al cierre del bimestre."
+          },
+          "teatro": {
+            "title": "Teatro",
+            "description": "Voz, cuerpo en escena y lectura dramática. Se montan sketchs cortos y una pieza grupal al final del ciclo."
+          },
+          "ajedrez": {
+            "title": "Ajedrez",
+            "description": "Aperturas, táctica y partidas bloque. Pensamiento lógico, paciencia y respeto al compañero de juego."
+          },
+          "robotica": {
+            "title": "Robótica",
+            "description": "Montaje de modelos educativos, sensores simples y retos de programación por etapas. Enfoque STEAM colaborativo."
+          }
+        }
       },
-      "languages": {
-        "name": "Mtra. Sofía Méndez",
-        "role": "Programa bilingüe",
-        "bio": "Fortalece la comunicación en inglés con metodologías prácticas y proyectos interdisciplinarios."
-      }
-    }
-  },
-  "becas": {
-    "title": "Programa de becas",
-    "subtitle": "Opciones de apoyo para que más estudiantes continúen su formación con excelencia.",
-    "benefits": {
-      "merit": {
-        "title": "Beca por mérito académico",
-        "description": "Reconoce el esfuerzo y desempeño sobresaliente de estudiantes comprometidos."
-      },
-      "financial": {
-        "title": "Beca socioeconómica",
-        "description": "Apoyo parcial para familias que requieren acompañamiento financiero en su trayectoria escolar."
-      },
-      "integral": {
-        "title": "Beca integral de talento",
-        "description": "Para estudiantes destacados en áreas académicas, artísticas o deportivas."
+      "schedule": {
+        "title": "Agenda de talleres vespertinos",
+        "subtitle": "Horarios de referencia para el ciclo lectivo; confirmar con coordinación de vida escolar ante cambios de cancha o laboratorio.",
+        "caption": "Tabla de talleres vespertinos: días, horarios y sede.",
+        "columns": {
+          "workshop": "Taller",
+          "days": "Días",
+          "time": "Horario",
+          "place": "Sede"
+        },
+        "rows": {
+          "futbol": {
+            "days": "Lunes y miércoles",
+            "time": "16:00 – 17:30",
+            "place": "Cancha deportiva"
+          },
+          "arte": {
+            "days": "Martes y jueves",
+            "time": "16:00 – 17:30",
+            "place": "Taller de arte"
+          },
+          "teatro": {
+            "days": "Martes",
+            "time": "17:00 – 18:30",
+            "place": "Salón de usos múltiples"
+          },
+          "ajedrez": {
+            "days": "Viernes",
+            "time": "16:00 – 17:00",
+            "place": "Biblioteca"
+          },
+          "robotica": {
+            "days": "Lunes y jueves",
+            "time": "16:30 – 17:45",
+            "place": "Laboratorio STEAM"
+          }
+        },
+        "note": "Los horarios pueden ajustarse por asambleas, jornadas especiales o mantenimiento de espacios. Lista de útiles y reglamento interno se entregan al inscribirse."
       }
     },
-    "cta": "Solicitar información de becas"
+    "teachers": {
+      "pageTitle": "Nuestros docentes",
+      "hero": {
+        "imageAlt": "Equipo docente y alumnos en actividad colaborativa en el aula",
+        "eyebrow": "Equipo académico",
+        "title": "Quienes acompañan cada etapa con rigor y cercanía",
+        "description": "Conoce algunas voces del IEX: su puesto, lo que impulsan en el aula y cómo conectan con las familias.",
+        "meta": "Perfiles orientativos · Fotografía ilustrativa"
+      },
+      "intro": {
+        "title": "Docentes en el centro del proyecto",
+        "lead": "Cada nivel cuenta con maestras y maestros que revisan prácticas en equipo, comparten estrategias y dan seguimiento personalizado al avance de los grupos.",
+        "body": "En esta sección destacamos perfiles representativos: no es una nómina completa, sino una muestra de las responsabilidades y actividades habituales junto al alumnado."
+      },
+      "profiles": {
+        "andrea": {
+          "name": "Mtra. Andrea Castillo",
+          "role": "Coordinación de innovación pedagógica",
+          "imageAlt": "Retrato de la Mtra. Andrea Castillo, docente del IEX",
+          "activitiesLead": "Diseña secuencias donde el aula se vuelve taller: indagación, coevaluación y uso crítico de fuentes.",
+          "activitiesBody": "Acompaña a docentes de primaria y secundaria en ciclos de mejora; con los alumnos facilita proyectos cortos con entregas públicas para que ejerciten argumentación y trabajo en equipo.",
+          "highlights": [
+            "Club de lectura cruzada entre grados con lectores talleristas.",
+            "Mesas de retroalimentación con estudiantes tras cada proyecto STEM."
+          ]
+        },
+        "rodrigo": {
+          "name": "Mtro. Rodrigo Hernández",
+          "role": "Tutoría y desarrollo socioemocional",
+          "imageAlt": "Retrato del Mtro. Rodrigo Hernández, tutor del IEX",
+          "activitiesLead": "Coordina tutorías que unen hábitos de estudio, bienestar y comunicación con casa.",
+          "activitiesBody": "Sesiones quincenales por grupo, espacios de escucha individual y talleres breves sobre gestión del tiempo y manejo del estrés ante exámenes. Articula con orientación cuando una familia necesita un plan compartido.",
+          "highlights": [
+            "Círculos restaurativos guiados entre pares en secundaria.",
+            "Reportes breves a familias con logros observables y próximos pasos."
+          ]
+        },
+        "sofia": {
+          "name": "Mtra. Sofía Méndez",
+          "role": "Programa bilingüe",
+          "imageAlt": "Retrato de la Mtra. Sofía Méndez, docente de inglés del IEX",
+          "activitiesLead": "Impulsa inglés comunicativo con proyectos orales, dramatización y lectura en voz alta.",
+          "activitiesBody": "En primaria y secundaria lidera encuentros de práctica deliberada: fonética, presentaciones cortas y uso de portfolios de lengua. Cada bimestre organiza una feria mini-talks donde el alumnado expone frente a familias.",
+          "highlights": [
+            "Intercambio de roles alumno-docente en microclases de 10 minutos.",
+            "Rúbricas compartidas para autoevaluar pronunciación y coherencia."
+          ]
+        }
+      }
+    },
+    "admission": {
+      "pageTitle": "Proceso de admisión",
+      "hero": {
+        "imageAlt": "Fachada y acceso del plantel escolar",
+        "eyebrow": "Ingreso",
+        "title": "Un recorrido claro hacia formar parte del IEX",
+        "description": "Te guiamos desde el primer contacto hasta la bienvenida formal, con información oportuna y espacios para conocer nuestra propuesta educativa.",
+        "meta": "Visitas guiadas previa cita · Evaluaciones por nivel"
+      },
+      "stepsIntro": "Estas son las etapas habituales del proceso; el equipo de admisiones te indica tiempos y documentación vigentes.",
+      "cta": "Agendar cita de admisiones",
+      "blocks": {
+        "informes": {
+          "title": "Primer contacto y visita",
+          "lead": "Agenda una visita o solicita informes para conocer instalaciones, modelo y disponibilidad por nivel.",
+          "body": "Resolvemos dudas sobre colegiaturas, calendario escolar, transporte y servicios. Si no puedes asistir en persona, ofrecemos sesión en línea con la misma información detallada.",
+          "imageAlt": "Familia con estudiante en recepción del colegio"
+        },
+        "evaluacion": {
+          "title": "Valoración del estudiante",
+          "lead": "Conversamos con la familia y aplicamos una evaluación diagnóstica acorde a la edad y grado solicitado.",
+          "body": "Los resultados sirven para orientar el ingreso y detectar necesidades de apoyo temprano. Siempre entregamos retroalimentación para que conozcas fortalezas y siguientes pasos pedagógicos.",
+          "imageAlt": "Estudiante realizando evaluación escrita con apoyo"
+        },
+        "integracion": {
+          "title": "Bienvenida y primeras semanas",
+          "lead": "Tras la carta de resultados se concreta la inscripción y plan de integración.",
+          "body": "Programamos actividades de bienvenida, asignación de tutor y acompañamiento en materiales. Buscamos que la transición al nuevo entorno sea positiva para el alumno y su familia.",
+          "imageAlt": "Estudiantes nuevos en actividad de integración grupal"
+        }
+      }
+    },
+    "scholarships": {
+      "pageTitle": "Programa de becas",
+      "hero": {
+        "imageAlt": "Estudiantes estudiando en biblioteca escolar",
+        "eyebrow": "Apoyo financiero",
+        "title": "Becas que reconocen esfuerzo y talento",
+        "description": "Opciones para familias que buscan continuidad en una educación de calidad con criterios claros y trato cercano.",
+        "meta": "Convocatoria por ciclo · Comité de becas institucional"
+      },
+      "blocks": {
+        "filosofia": {
+          "title": "Filosofía del programa",
+          "lead": "Creemos en el acceso equitativo sin sacrificar la excelencia académica y el modelo integral del IEX.",
+          "body": "Las becas se otorgan con base en criterios de mérito académico, talento en áreas específicas o apoyo socioeconómico verificado. La confidencialidad de la información familiar es prioridad.",
+          "imageAlt": "Libros y cuadernos sobre mesa de estudio"
+        },
+        "criterios": {
+          "title": "Criterios y documentación",
+          "lead": "Solicitud formal, historial escolar reciente, carta motivacional y, en algunos casos, entrevista con el comité.",
+          "body": "Te compartimos una lista de verificación para evitar trámites innecesarios. Los porcentajes de apoyo dependen del análisis integral y la disponibilidad presupuestal del ciclo.",
+          "imageAlt": "Documentos y plan de estudios sobre escritorio"
+        },
+        "acompanamiento": {
+          "title": "Seguimiento a becarios",
+          "lead": "Beneficio ligado al compromiso académico, convivencia y participación escolar.",
+          "body": "Realizamos revisiones por periodo para celebrar logros y, de ser necesario, ajustar apoyos pedagógicos. La familia recibe orientación para planificar a futuro dentro del programa.",
+          "imageAlt": "Estudiante y tutor revisando avances en tableta"
+        }
+      },
+      "ctaBand": {
+        "title": "¿Listo para iniciar tu solicitud?",
+        "body": "Escríbenos desde contacto para enviarte el formato oficial y resolver dudas sobre plazos y requisitos vigentes.",
+        "button": "Contactar admisiones"
+      }
+    }
   },
   "buzon": {
     "badge": "Atención a la comunidad",

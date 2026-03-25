@@ -8,9 +8,13 @@
     "programs": "Programs",
     "admissions": "Admissions",
     "academicOffer": "Academic offer",
-    "admissionsAndScholarships": "Admissions and scholarships",
-    "schoolLife": "School life",
-    "community": "Community",
+    "menuGroupAcademic": "Academics",
+    "menuGroupAdmissions": "Admissions and scholarships",
+    "workshops": "Afternoon workshops",
+    "epic": "EPIC",
+    "teachers": "Teachers",
+    "admissionsPage": "Admissions process",
+    "scholarshipsPage": "Scholarship program",
     "gallery": "Gallery",
     "events": "Events",
     "partners": "Partners",
@@ -134,6 +138,194 @@
           "Mentoring"
         ]
       }
+    },
+    "cardLinkAria": "View program: {{title}}"
+  },
+  "programPages": {
+    "preescolar": {
+      "pageTitle": "Preschool",
+      "hero": {
+        "imageAlt": "Young children exploring and learning in a preschool classroom",
+        "eyebrow": "Early years",
+        "title": "First years filled with play, routines, and care",
+        "description": "Safe environments where language, motor skills, and community grow with specialized teachers and close partnership with every family.",
+        "meta": "Multi-sensory classroom · Early stimulation · Exploratory English"
+      },
+      "blocks": {
+        "propuesta": {
+          "title": "Educational approach",
+          "lead": "We begin with meaningful play, clear routines, and experiences that spark curiosity—without rushing development.",
+          "body": "Short sequences use concrete materials, music, rhyme, and storytime. Each week includes assembly, outdoor exploration, and small projects tied to children’s daily lives.",
+          "imageAlt": "Children painting and playing in the classroom"
+        },
+        "ambientes": {
+          "title": "Spaces and materials",
+          "lead": "Bright rooms, themed corners, and safe materials invite guided exploration and independence.",
+          "body": "We rotate stations for art, building, reading, and dramatic play. Materials sit at child height to support decision-making, order, and respect for the environment—always supervised.",
+          "imageAlt": "Preschool classroom with learning corners"
+        },
+        "familia": {
+          "title": "Partnership with families",
+          "lead": "Brief, steady communication: journals, interviews, and listening spaces.",
+          "body": "Learning support walks families through adaptation and shares practical tips. We celebrate growth together and align sleep, nutrition, and routines between home and school.",
+          "imageAlt": "Teacher greeting parents at the school entrance"
+        }
+      },
+      "cta": {
+        "title": "Learn about start dates and a guided tour",
+        "body": "We explain the admissions process for early years and answer questions about groups and schedules.",
+        "primary": "Go to admissions",
+        "secondary": "Contact the school"
+      }
+    },
+    "primaria": {
+      "pageTitle": "Elementary",
+      "hero": {
+        "imageAlt": "Elementary students taking part in class",
+        "eyebrow": "Primary level",
+        "title": "Strong foundations in literacy, math, and citizenship",
+        "description": "We strengthen logical thinking, reading comprehension, and values in an active setting with responsible technology and collaborative projects.",
+        "meta": "Grade-level follow-up · Formative assessment · Optional clubs"
+      },
+      "blocks": {
+        "bases": {
+          "title": "Literacy and mathematics",
+          "lead": "Daily reading routines, contextual problems, and oral expression workshops.",
+          "body": "We use varied texts and visual strategies to understand and argue. In math we emphasize number sense, estimation, and collaborative problem solving before algorithms.",
+          "imageAlt": "Elementary students reading in a circle with their teacher"
+        },
+        "proyectos": {
+          "title": "Projects and teamwork",
+          "lead": "Science, art, and language merge in multi-week challenges with a public showcase.",
+          "body": "Teams rotate roles, document progress, and reflect on learning. Students practice communication, empathy, and shared responsibility suited to their age.",
+          "imageAlt": "Students presenting a project with posters"
+        },
+        "tecnologia": {
+          "title": "Technology with purpose",
+          "lead": "Tablets and digital tools follow clear lesson plans and digital citizenship agreements.",
+          "body": "We highlight critical search, simple design, and respectful device use. Screen-free periods balance focus and wellbeing.",
+          "imageAlt": "Children using tablets in pairs with teacher guidance"
+        }
+      },
+      "cta": {
+        "title": "Planning the move to elementary?",
+        "body": "Request information, review the plan by grade, and check documentation requirements.",
+        "primary": "Go to admissions",
+        "secondary": "Contact the school"
+      }
+    },
+    "secundaria": {
+      "pageTitle": "Middle school",
+      "hero": {
+        "imageAlt": "Middle school students in a group activity",
+        "eyebrow": "Lower secondary",
+        "title": "Autonomy, study habits, and guidance for adolescence",
+        "description": "We blend academic rigor, STEAM, sports, and career guidance so students build confidence about their path.",
+        "meta": "Labs · Sports clubs · Progressive English"
+      },
+      "blocks": {
+        "steam": {
+          "title": "Science, arts, and technology",
+          "lead": "Guided experiments, prototypes, and an internal interdisciplinary project fair.",
+          "body": "We grow skills like hypothesis, trial and error, and presenting results. Teachers connect topics to issues close to students’ realities.",
+          "imageAlt": "Students in a science lab handling materials"
+        },
+        "vocacional": {
+          "title": "Guidance and wellbeing",
+          "lead": "Tutoring links personal goals, study habits, and first vocational choices.",
+          "body": "Workshops on social-emotional skills, time management, and exam stress. We support family conversations at key moments.",
+          "imageAlt": "Counselor talking with students in the hallway"
+        },
+        "comunidad": {
+          "title": "Leadership and service",
+          "lead": "Student teams, debate, and projects that serve the school community.",
+          "body": "We foster respectful voice, peer mediation, and celebration of diversity. Sports, music, and short volunteering opportunities are available.",
+          "imageAlt": "Teens organizing a cultural activity together"
+        }
+      },
+      "cta": {
+        "title": "Plan the transition to middle school",
+        "body": "Review the curriculum, lab schedules, and club options for the upcoming year.",
+        "primary": "Go to admissions",
+        "secondary": "Contact the school"
+      }
+    },
+    "bachillerato": {
+      "pageTitle": "High school",
+      "hero": {
+        "imageAlt": "High school students studying for university prep",
+        "eyebrow": "Upper secondary",
+        "title": "Serious preparation for university and professional life",
+        "description": "Mock exams, research, mentoring, and targeted support for entrance tests—without losing holistic growth.",
+        "meta": "Periodic mock exams · Advising · Scholarships and partnerships"
+      },
+      "blocks": {
+        "excelencia": {
+          "title": "High expectations with support",
+          "lead": "Semester planning, transparent rubrics, and scheduled help before major assessments.",
+          "body": "You receive actionable feedback in math, reading, and science. We prioritize reasoning and written argument—core skills for selection exams.",
+          "imageAlt": "Students in class taking focused notes"
+        },
+        "investigacion": {
+          "title": "Research projects",
+          "lead": "A short monograph or applied project with faculty advising and fair-style presentation.",
+          "body": "You learn to cite sources, synthesize evidence, and speak clearly. It previews the university-level work ahead after IEX.",
+          "imageAlt": "Student presenting research to classmates"
+        },
+        "universidad": {
+          "title": "Bridge to university",
+          "lead": "Exam-style mocks, career-choice workshops, and alumni talks.",
+          "body": "We map strengths and realistic options. If you apply for institutional scholarships, we help with requirements and deadlines without losing academic pace.",
+          "imageAlt": "Students reviewing university guides together"
+        }
+      },
+      "cta": {
+        "title": "Take the next step toward university",
+        "body": "Review the mock-exam calendar and high school admissions profile.",
+        "primary": "Go to admissions",
+        "secondary": "Contact the school"
+      }
+    },
+    "epic": {
+      "pageTitle": "EPIC",
+      "hero": {
+        "imageAlt": "Children using immersive technology to learn in the classroom",
+        "eyebrow": "EPIC program",
+        "title": "English, augmented reality, robotics, and coding",
+        "description": "Students practice English through AR glasses, build and program robots, and grow computational thinking with hands-on, playful projects.",
+        "meta": "AR + English · Robotics · Creative code · Teamwork"
+      },
+      "blocks": {
+        "arIngles": {
+          "title": "English with augmented reality",
+          "lead": "Digital scenes and characters support pronunciation, vocabulary, and listening.",
+          "body": "With AR glasses, learners practice dialogues in simulated contexts, play language challenges, and get immediate feedback—building confidence to speak English in a living language-lab atmosphere.",
+          "imageAlt": "Child wearing augmented reality glasses during an activity"
+        },
+        "robotica": {
+          "title": "Educational robotics",
+          "lead": "Build, test, and tune: basic mechanics, sensors, and teamwork.",
+          "body": "Students solve simple challenges with classroom kits—line following, obstacle avoidance, or a team mission. The room works like a makerspace to test ideas and celebrate every prototype that runs.",
+          "imageAlt": "Hand adjusting an educational robotic arm in a workshop"
+        },
+        "programacion": {
+          "title": "Programming and logical thinking",
+          "lead": "Sequences, conditions, and loops become visual before students write code.",
+          "body": "We move from guided block-based activities to small programs that drive robots or simple animations. The focus is algorithmic thinking, patient debugging, and respect for peers when sharing projects.",
+          "imageAlt": "Screen showing code and an educational programming resource"
+        }
+      },
+      "marquee": {
+        "ariaLabel": "Gallery of EPIC program moments with technology and active learning",
+        "title": "EPIC in the classroom",
+        "lead": "Workshops, prototypes, and collaboration—a scrolling strip of images from the program."
+      },
+      "cta": {
+        "title": "Interested in EPIC for your child?",
+        "body": "Ask about availability, recommended ages, and how EPIC fits with IEX’s academic offer.",
+        "primary": "Go to admissions",
+        "secondary": "Contact the school"
+      }
     }
   },
   "model": {
@@ -251,6 +443,13 @@
   },
   "gallery": {
     "title": "Our gallery",
+    "openImage": "View full-size image: {{caption}}",
+    "lightbox": {
+      "close": "Close full-screen view",
+      "closeBackdrop": "Close gallery",
+      "next": "Next image",
+      "prev": "Previous image"
+    },
     "items": {
       "classroom": {
         "alt": "Students in class taking part in the lesson"
@@ -298,63 +497,225 @@
     "partnersHint": "See the «Partners and certifications» section for certifications and partners.",
     "mapTitle": "Location"
   },
-  "talleres": {
-    "title": "Afternoon workshops",
-    "subtitle": "After-school spaces to strengthen artistic, sports, and technology talents.",
-    "items": {
-      "artsMusic": {
-        "title": "Arts and music",
-        "description": "Painting, theater, and music ensemble activities to develop creativity, expression, and teamwork."
+  "pages": {
+    "workshops": {
+      "pageTitle": "Afternoon workshops",
+      "hero": {
+        "imageAlt": "Students participating in an after-school workshop on campus",
+        "eyebrow": "School life",
+        "title": "Learning that continues after the bell",
+        "description": "Afternoon workshops to explore art, science, sports, and technology with specialist guidance in a safe, motivating environment.",
+        "meta": "Enrollment by term · Limited spots per group"
       },
-      "scienceTech": {
-        "title": "Science and technology",
-        "description": "Educational robotics, lab sessions, and STEAM projects focused on real-world problem solving."
+      "blocks": {
+        "horario": {
+          "title": "Schedule and rhythm",
+          "lead": "Workshops run right after the regular school day, respecting breaks and on-campus transition times.",
+          "body": "Each experience is designed in 60–90 minute blocks, with materials included and a supply list shared on day one so families can plan pickup and drop-off confidently.",
+          "imageAlt": "Art room with easels and students painting"
+        },
+        "oferta": {
+          "title": "What we offer",
+          "lead": "We blend artistic expression, STEAM labs, public speaking, educational robotics, and formative sports.",
+          "body": "Content is refreshed each school year based on student interests and guest instructors. We share the catalog before registration so your family can decide together.",
+          "imageAlt": "Students at a science fair with projects on tables"
+        },
+        "comunidad": {
+          "title": "Formation and community",
+          "lead": "Workshops strengthen shared responsibility, leadership, and teamwork beyond grades.",
+          "body": "We provide feedback with tutor teachers, open showcases for families, and closing celebrations that honor the process. The goal is lasting curiosity and consistency.",
+          "imageAlt": "Students applauding during a cultural presentation"
+        }
       },
-      "sportsWellness": {
-        "title": "Sports and wellness",
-        "description": "Guided physical activities that build healthy habits, discipline, and positive community."
-      }
-    }
-  },
-  "docentes": {
-    "title": "Meet our teachers",
-    "subtitle": "An academic team with experience, close support, and continuous professional growth.",
-    "items": {
-      "innovation": {
-        "name": "Andrea Castillo, M.Ed.",
-        "role": "Innovation in learning",
-        "bio": "Designs active learning experiences that connect classroom work with real-world challenges."
+      "video": {
+        "title": "Workshops and creativity at school",
+        "description": "This reference video (TED talk in English—enable captions on YouTube if you like) explores fostering creativity in education, aligned with the spirit of our afternoon workshops.",
+        "iframeTitle": "YouTube video: creativity and education",
+        "caption": "External content hosted on YouTube. You can replace the embed ID in code with IEX-owned media."
       },
-      "guidance": {
-        "name": "Rodrigo Hernandez, M.Ed.",
-        "role": "Guidance and social-emotional learning",
-        "bio": "Supports students and families in wellbeing, autonomy, and study habits."
+      "available": {
+        "title": "Available workshops",
+        "subtitle": "Categories offered each school year; coordinators confirm age group, eligibility, and capacity.",
+        "items": {
+          "futbol": {
+            "title": "Soccer",
+            "description": "Formative training focused on conditioning, teamwork, and fair play. Warm-ups, drills, and small-sided games."
+          },
+          "arte": {
+            "title": "Art",
+            "description": "Visual arts studio: drawing, painting, and mixed media. Short exhibitions at the end of each term."
+          },
+          "teatro": {
+            "title": "Theater",
+            "description": "Voice, movement, and dramatic reading. Students produce short scenes and a small ensemble piece each cycle."
+          },
+          "ajedrez": {
+            "title": "Chess",
+            "description": "Openings, tactics, and timed games. Logic, patience, and respect for opponents."
+          },
+          "robotica": {
+            "title": "Robotics",
+            "description": "Educational kits, simple sensors, and staged coding challenges. Collaborative STEAM mindset."
+          }
+        }
       },
-      "languages": {
-        "name": "Sofia Mendez, B.Ed.",
-        "role": "Bilingual program",
-        "bio": "Strengthens English communication through practical methods and interdisciplinary projects."
-      }
-    }
-  },
-  "becas": {
-    "title": "Scholarship program",
-    "subtitle": "Support options so more students can continue their education with excellence.",
-    "benefits": {
-      "merit": {
-        "title": "Academic merit scholarship",
-        "description": "Recognizes outstanding performance and student commitment."
-      },
-      "financial": {
-        "title": "Financial-need scholarship",
-        "description": "Partial support for families that need financial assistance throughout the school year."
-      },
-      "integral": {
-        "title": "Comprehensive talent scholarship",
-        "description": "For students who stand out in academic, artistic, or sports areas."
+      "schedule": {
+        "title": "Afternoon workshop schedule",
+        "subtitle": "Sample times for the school year; confirm with student-life coordinators if venues change.",
+        "caption": "Afternoon workshops table: days, times, and location.",
+        "columns": {
+          "workshop": "Workshop",
+          "days": "Days",
+          "time": "Time",
+          "place": "Venue"
+        },
+        "rows": {
+          "futbol": {
+            "days": "Monday & Wednesday",
+            "time": "4:00 – 5:30 p.m.",
+            "place": "Sports field"
+          },
+          "arte": {
+            "days": "Tuesday & Thursday",
+            "time": "4:00 – 5:30 p.m.",
+            "place": "Art studio"
+          },
+          "teatro": {
+            "days": "Tuesday",
+            "time": "5:00 – 6:30 p.m.",
+            "place": "Multi-purpose room"
+          },
+          "ajedrez": {
+            "days": "Friday",
+            "time": "4:00 – 5:00 p.m.",
+            "place": "Library"
+          },
+          "robotica": {
+            "days": "Monday & Thursday",
+            "time": "4:30 – 5:45 p.m.",
+            "place": "STEAM lab"
+          }
+        },
+        "note": "Times may shift for assemblies, special events, or facility maintenance. Supply lists and internal guidelines are shared at registration."
       }
     },
-    "cta": "Request scholarship information"
+    "teachers": {
+      "pageTitle": "Our teachers",
+      "hero": {
+        "imageAlt": "Teachers and students collaborating in the classroom",
+        "eyebrow": "Academic team",
+        "title": "The educators who guide each stage with rigor and care",
+        "description": "Meet a few voices from IEX: their role, what they lead in class, and how they connect with families.",
+        "meta": "Representative profiles · Illustrative photography"
+      },
+      "intro": {
+        "title": "Teachers at the heart of the project",
+        "lead": "Every level has educators who review practice together, share strategies, and follow each group’s progress closely.",
+        "body": "Here we highlight representative profiles—not a full roster, but a sample of typical responsibilities and activities alongside students."
+      },
+      "profiles": {
+        "andrea": {
+          "name": "Andrea Castillo, M.Ed.",
+          "role": "Innovation in teaching and learning",
+          "imageAlt": "Portrait of Andrea Castillo, IEX teacher",
+          "activitiesLead": "She designs sequences where the classroom becomes a studio: inquiry, peer assessment, and critical use of sources.",
+          "activitiesBody": "She supports elementary and middle school faculty in improvement cycles; with students she facilitates short projects with public showcases to practice argumentation and teamwork.",
+          "highlights": [
+            "Cross-grade reading club with student reading coaches.",
+            "Feedback rounds with students after each STEM project."
+          ]
+        },
+        "rodrigo": {
+          "name": "Rodrigo Hernandez, M.Ed.",
+          "role": "Tutoring and social-emotional development",
+          "imageAlt": "Portrait of Rodrigo Hernandez, IEX tutor",
+          "activitiesLead": "He coordinates tutoring that blends study habits, wellbeing, and communication with home.",
+          "activitiesBody": "Biweekly class sessions, one-to-one listening spaces, and short workshops on time management and exam stress. He partners with counseling when a family needs a shared plan.",
+          "highlights": [
+            "Facilitated restorative circles among peers in middle school.",
+            "Brief family updates with observable wins and next steps."
+          ]
+        },
+        "sofia": {
+          "name": "Sofia Mendez, B.Ed.",
+          "role": "Bilingual program",
+          "imageAlt": "Portrait of Sofia Mendez, IEX English teacher",
+          "activitiesLead": "She drives communicative English through oral projects, drama, and read-alouds.",
+          "activitiesBody": "In elementary and middle school she leads deliberate practice: pronunciation, short presentations, and language portfolios. Each term she hosts a mini-talks fair where students present to families.",
+          "highlights": [
+            "Student-teacher role swaps in 10-minute micro-lessons.",
+            "Shared rubrics to self-assess pronunciation and coherence."
+          ]
+        }
+      }
+    },
+    "admission": {
+      "pageTitle": "Admissions process",
+      "hero": {
+        "imageAlt": "School building entrance and campus access",
+        "eyebrow": "Joining",
+        "title": "A clear path to becoming part of IEX",
+        "description": "We guide you from first contact through official welcome with timely information and spaces to understand our educational model.",
+        "meta": "Guided visits by appointment · Assessments by level"
+      },
+      "stepsIntro": "These are the typical stages; admissions will share current schedules and paperwork.",
+      "cta": "Schedule an admissions appointment",
+      "blocks": {
+        "informes": {
+          "title": "First contact and visit",
+          "lead": "Book a tour or request information to see facilities, the model, and availability by level.",
+          "body": "We answer questions about tuition, calendar, transportation, and services. If you cannot visit in person, we offer an online session with the same level of detail.",
+          "imageAlt": "Family with student at the school reception"
+        },
+        "evaluacion": {
+          "title": "Student assessment",
+          "lead": "We meet the family and apply a diagnostic assessment suited to age and requested grade.",
+          "body": "Results guide enrollment decisions and early support needs. You always receive feedback on strengths and recommended next pedagogical steps.",
+          "imageAlt": "Student taking a written assessment with support nearby"
+        },
+        "integracion": {
+          "title": "Welcome and first weeks",
+          "lead": "After results, enrollment and an integration plan are finalized.",
+          "body": "We schedule welcome activities, tutor assignment, and support with materials. We want the transition to feel positive for students and families.",
+          "imageAlt": "New students during a group integration activity"
+        }
+      }
+    },
+    "scholarships": {
+      "pageTitle": "Scholarship program",
+      "hero": {
+        "imageAlt": "Students studying in the school library",
+        "eyebrow": "Financial support",
+        "title": "Scholarships that recognize effort and talent",
+        "description": "Options for families seeking continuity in quality education with clear criteria and personal guidance.",
+        "meta": "Call for applications each term · Institutional scholarship committee"
+      },
+      "blocks": {
+        "filosofia": {
+          "title": "Program philosophy",
+          "lead": "We believe in equitable access without giving up academic excellence and IEX’s holistic model.",
+          "body": "Awards combine academic merit, talent in specific areas, or verified financial need. Confidentiality of family information is a priority.",
+          "imageAlt": "Books and notebooks on a study desk"
+        },
+        "criterios": {
+          "title": "Criteria and paperwork",
+          "lead": "Formal request, recent school records, motivation letter, and in some cases a committee interview.",
+          "body": "We provide a checklist to avoid unnecessary steps. Support percentages depend on holistic review and budget availability for the term.",
+          "imageAlt": "Documents and study plan on a desk"
+        },
+        "acompanamiento": {
+          "title": "Support for scholarship students",
+          "lead": "Benefits are tied to academic commitment, conduct, and school participation.",
+          "body": "We review progress each term to celebrate wins and, if needed, adjust learning supports. Families receive guidance to plan ahead within the program.",
+          "imageAlt": "Student and mentor reviewing progress on a tablet"
+        }
+      },
+      "ctaBand": {
+        "title": "Ready to start your application?",
+        "body": "Contact us and we will send the official form and answer questions about deadlines and current requirements.",
+        "button": "Contact admissions"
+      }
+    }
   },
   "buzon": {
     "badge": "Community support",

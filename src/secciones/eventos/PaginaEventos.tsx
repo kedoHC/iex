@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import { TituloSeccion } from "@/componentes/TituloSeccion";
+import { TituloSeccion } from "@/components/TituloSeccion";
 import {
   eventosPasados,
   imagenCompromisoCultural,

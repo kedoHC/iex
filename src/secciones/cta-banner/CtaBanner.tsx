@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
-import { BotonAccion } from "@/componentes/BotonAccion";
-import { Reveal } from "@/componentes/Reveal";
+import { BotonAccion } from "@/components/BotonAccion";
+import { Reveal } from "@/components/Reveal";
 import type { CtaBannerProps } from "@/interfaces/cta";
 
 export function CtaBanner({

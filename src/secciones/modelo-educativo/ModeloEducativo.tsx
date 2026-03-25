@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 
-import { Reveal } from '@/componentes/Reveal'
+import { Reveal } from '@/components/Reveal'
 import type { ModeloEducativoProps } from '@/interfaces/modelo-educativo'
 
 export function ModeloEducativo({

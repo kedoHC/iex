@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 
-import { Reveal } from '@/componentes/Reveal'
-import { TituloSeccion } from '@/componentes/TituloSeccion'
+import { Reveal } from '@/components/Reveal'
+import { TituloSeccion } from '@/components/TituloSeccion'
 import { ActividadesDestacadas } from '@/secciones/por-que-elegir/ActividadesDestacadas'
 import { TarjetaRazon } from '@/secciones/por-que-elegir/TarjetaRazon'
 import { actividades, razones } from '@/secciones/por-que-elegir/datosRazones'

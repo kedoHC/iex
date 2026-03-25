@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
-import { Reveal } from '@/componentes/Reveal';
-import { TituloSeccion } from '@/componentes/TituloSeccion';
+import { Reveal } from '@/components/Reveal';
+import { TituloSeccion } from '@/components/TituloSeccion';
 import { URL_LOGO_ESCUELA } from '@/constantes/marca';
 import { GrillaAliadosCertificaciones } from '@/secciones/aliados/GrillaAliadosCertificaciones';
 

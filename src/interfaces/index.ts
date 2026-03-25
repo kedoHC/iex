@@ -5,7 +5,13 @@ export type {
   BotonAccionProps,
   SelectorIdiomaProps,
 } from './componentes'
-export type { EnlaceNav, NavbarProps } from './cabecera'
+export type {
+  EnlaceNav,
+  EnlaceNavGrupo,
+  EnlaceNavHoja,
+  NavbarProps,
+} from './cabecera'
+export { esGrupoNav } from './cabecera'
 export type {
   HeroStat,
   HeroProps,

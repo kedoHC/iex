@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Reveal } from "@/componentes/Reveal";
+import { Reveal } from "@/components/Reveal";
 import { useMobileLayout } from "@/hooks/useMobileLayout";
 import { heroSliderSources } from "@/secciones/hero/datosHeroSlider";
 import { cn } from "@/lib/utils";

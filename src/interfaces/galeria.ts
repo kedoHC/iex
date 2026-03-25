@@ -6,4 +6,5 @@ export interface GaleriaItem {
 export interface CeldaGaleriaProps {
   item: GaleriaItem
   delay?: number
+  onAbrir: () => void
 }

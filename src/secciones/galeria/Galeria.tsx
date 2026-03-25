@@ -1,11 +1,16 @@
+import { useCallback, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { TituloSeccion } from '@/componentes/TituloSeccion'
+import { TituloSeccion } from '@/components/TituloSeccion'
 import { CeldaGaleria } from '@/secciones/galeria/CeldaGaleria'
 import { itemsGaleria } from '@/secciones/galeria/datosGaleria'
+import { VistaAmpliadaGaleria } from '@/secciones/galeria/VistaAmpliadaGaleria'
 
 export function Galeria() {
   const { t } = useTranslation()
+  const [indiceAbierto, setIndiceAbierto] = useState<number | null>(null)
+
+  const cerrar = useCallback(() => setIndiceAbierto(null), [])
 
   return (
     <section
@@ -20,10 +25,17 @@ export function Galeria() {
               key={item.id}
               item={item}
               delay={Math.min(i * 0.05, 0.35)}
+              onAbrir={() => setIndiceAbierto(i)}
             />
           ))}
         </div>
       </div>
+      <VistaAmpliadaGaleria
+        items={itemsGaleria}
+        indiceAbierto={indiceAbierto}
+        onCerrar={cerrar}
+        onCambiarIndice={setIndiceAbierto}
+      />
     </section>
   )
 }

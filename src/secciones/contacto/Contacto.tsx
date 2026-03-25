@@ -1,8 +1,8 @@
 import { MessageCircle } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-import { BotonAccion } from "@/componentes/BotonAccion";
-import { TituloSeccion } from "@/componentes/TituloSeccion";
+import { BotonAccion } from "@/components/BotonAccion";
+import { TituloSeccion } from "@/components/TituloSeccion";
 import { MapaUbicacion } from "@/secciones/contacto/MapaUbicacion";
 import { TarjetaContacto } from "@/secciones/contacto/TarjetaContacto";
 import { contactoItems } from "@/secciones/contacto/datosContacto";

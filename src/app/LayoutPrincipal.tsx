@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 
-import { BotonVolverArriba } from "@/componentes/BotonVolverArriba";
+import { BotonVolverArriba } from "@/components/BotonVolverArriba";
 import { Navbar } from "@/secciones/cabecera/Navbar";
 import { Pie } from "@/secciones/pie/Pie";
 

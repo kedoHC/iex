@@ -2,8 +2,8 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-import { MarcaInstitucional } from "@/componentes/MarcaInstitucional";
-import { Reveal } from "@/componentes/Reveal";
+import { MarcaInstitucional } from "@/components/MarcaInstitucional";
+import { Reveal } from "@/components/Reveal";
 import { enlacesInstitucion } from "@/secciones/pie/datosPie";
 import type { PieProps } from "@/interfaces/pie";
 

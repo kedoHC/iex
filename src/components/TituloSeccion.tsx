@@ -1,6 +1,6 @@
-import { Reveal } from '@/componentes/Reveal'
-import { cn } from '@/lib/utils'
-import type { TituloSeccionProps } from '@/interfaces/componentes'
+import { Reveal } from "@/components/Reveal";
+import { cn } from "@/lib/utils";
+import type { TituloSeccionProps } from "@/interfaces/componentes";
 
 export function TituloSeccion({
   titulo,
@@ -10,7 +10,7 @@ export function TituloSeccion({
   idTitulo,
 }: TituloSeccionProps) {
   return (
-    <Reveal className={cn('mx-auto max-w-3xl text-center', className)}>
+    <Reveal className={cn("mx-auto max-w-3xl text-center", className)}>
       <h2
         id={idTitulo}
         className="text-3xl font-bold tracking-tight text-iex-navy md:text-4xl"
@@ -29,5 +29,5 @@ export function TituloSeccion({
         </p>
       ) : null}
     </Reveal>
-  )
+  );
 }

@@ -1,4 +1,4 @@
-import { Reveal } from '@/componentes/Reveal'
+import { Reveal } from '@/components/Reveal'
 import type { PasoTarjetaProps } from '@/interfaces/proceso-admision'
 
 export function TarjetaPaso({ paso, delay = 0 }: PasoTarjetaProps) {

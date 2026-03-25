@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 
-import { TituloSeccion } from '@/componentes/TituloSeccion'
+import { TituloSeccion } from '@/components/TituloSeccion'
 import { TarjetaPrograma } from '@/secciones/programas/TarjetaPrograma'
 import { programas } from '@/secciones/programas/datosProgramas'
 

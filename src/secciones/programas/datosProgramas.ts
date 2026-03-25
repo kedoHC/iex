@@ -3,7 +3,7 @@ import type { ProgramaNivel } from '@/interfaces/programas'
 
 const u = (id: string) => urlUnsplashFoto(id, 1000)
 
-/** Cuatro escenas distintas del pool verificado en el sitio (sin IDs rotos). */
+/** Escenas del pool verificado en el sitio (sin IDs rotos). */
 export const programas: ProgramaNivel[] = [
   {
     id: 'preescolar',

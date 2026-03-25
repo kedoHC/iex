@@ -1,8 +1,8 @@
 import { MessageSquareWarning } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-import { BotonAccion } from "@/componentes/BotonAccion";
-import { Reveal } from "@/componentes/Reveal";
+import { BotonAccion } from "@/components/BotonAccion";
+import { Reveal } from "@/components/Reveal";
 
 export function BuzonQuejas() {
   const { t } = useTranslation();

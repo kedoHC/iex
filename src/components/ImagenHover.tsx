@@ -1,30 +1,30 @@
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
 
-import { cn } from '@/lib/utils'
-import type { ImagenHoverProps } from '@/interfaces/componentes'
+import { cn } from "@/lib/utils";
+import type { ImagenHoverProps } from "@/interfaces/componentes";
 
 const aspectClasses = {
-  video: 'aspect-video',
-  square: 'aspect-square',
-  portrait: 'aspect-[3/4]',
-}
+  video: "aspect-video",
+  square: "aspect-square",
+  portrait: "aspect-[3/4]",
+};
 
 export function ImagenHover({
   src,
   alt,
   etiqueta,
-  aspectRatio = 'video',
+  aspectRatio = "video",
   className,
 }: ImagenHoverProps) {
   return (
     <motion.figure
       className={cn(
-        'group relative overflow-hidden rounded-2xl bg-muted shadow-md',
+        "group relative overflow-hidden rounded-2xl bg-muted shadow-md",
         aspectClasses[aspectRatio],
         className,
       )}
       whileHover={{ scale: 1.02 }}
-      transition={{ type: 'spring', stiffness: 320, damping: 22 }}
+      transition={{ type: "spring", stiffness: 320, damping: 22 }}
     >
       <div className="absolute inset-0 overflow-hidden">
         <motion.img
@@ -42,5 +42,5 @@ export function ImagenHover({
         </figcaption>
       ) : null}
     </motion.figure>
-  )
+  );
 }

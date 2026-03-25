@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 
-import { ImagenHover } from '@/componentes/ImagenHover'
-import { Reveal } from '@/componentes/Reveal'
+import { ImagenHover } from '@/components/ImagenHover'
+import { Reveal } from '@/components/Reveal'
 import type { ActividadesDestacadasProps } from '@/interfaces/por-que-elegir'
 
 export function ActividadesDestacadas({ items }: ActividadesDestacadasProps) {

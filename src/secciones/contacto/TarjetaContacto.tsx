@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import { Reveal } from "@/componentes/Reveal";
+import { Reveal } from "@/components/Reveal";
 import { cn } from "@/lib/utils";
 import type { TarjetaContactoProps } from "@/interfaces/contacto";
 

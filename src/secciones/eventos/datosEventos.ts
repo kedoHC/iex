@@ -15,6 +15,9 @@ export const imagenCompromisoCultural = u(
   1400,
 );
 
+/** Foto tipo auditorio/puesta en escena para franja final. */
+export const imagenMagnoEvento = u("photo-1529626455594-4ff0802cfb7e", 1920);
+
 export const eventosPasados: readonly EventoPasadoDato[] = [
   { id: "graduacion", imagen: u("photo-1517486808906-6ca8b3f04846") },
   { id: "feriaCiencias", imagen: u("photo-1509062522246-3755977927d7") },

@@ -12,6 +12,11 @@
     "menuGroupAdmissions": "Admissions and scholarships",
     "workshops": "Afternoon workshops",
     "epic": "EPIC",
+    "menuGroupAbout": "About us",
+    "facilities": "Our facilities",
+    "services": "Services",
+    "students": "Our students",
+    "familyIex": "IEX family",
     "teachers": "Teachers",
     "admissionsPage": "Admissions process",
     "scholarshipsPage": "Scholarship program",
@@ -439,6 +444,22 @@
       "imageAlt": "Students in an arts and cultural activity at school",
       "lead": "At IEX we believe holistic education includes the arts, identity, and respect for diversity. Our cultural events and projects help every student find their voice, collaborate with others, and connect thoughtfully with the community.",
       "body": "We promote reading, music, theater, exhibitions, and service days as part of the curriculum and school life. In this way we nurture sensitive, critical, and caring citizens aligned with the school’s values and a genuine social commitment beyond the classroom."
+    },
+    "grandFinal": {
+      "ariaLabel": "End-of-year grand event with a stage production in the auditorium",
+      "eyebrow": "Grand event",
+      "title": "End‑of‑year gala: a stage production that brings the whole community together",
+      "description": "At the end of the school year, the auditorium transforms: students across levels take the stage to celebrate learning, discipline, and teamwork through a live production.",
+      "meta": "Auditorium · All levels · Final showcase",
+      "cardTitle": "Why it matters",
+      "bullets": [
+        "Recognizes students’ effort and growth throughout the year",
+        "Builds stage confidence, expression, and collaboration",
+        "Brings families and the community together in a memorable moment",
+        "Closes the year with pride, identity, and belonging"
+      ],
+      "ctaPrimary": "I want to attend",
+      "ctaSecondary": "See admissions"
     }
   },
   "gallery": {
@@ -498,6 +519,370 @@
     "mapTitle": "Location"
   },
   "pages": {
+    "about": {
+      "facilities": {
+        "pageTitle": "Our facilities",
+        "photoHint": "Reference images.",
+        "hero": {
+          "imageAlt": "Architecture and built spaces as facilities reference",
+          "eyebrow": "About us",
+          "title": "Spaces designed for every stage",
+          "description": "Classrooms, shared areas, and environments built to learn, explore, and connect—safely.",
+          "meta": "Classrooms · Green areas · Collaborative spaces"
+        },
+        "sections": [
+          {
+            "id": "salones",
+            "titulo": "Classrooms by level",
+            "lead": "Spaces for preschool, elementary, middle school, and high school—bright, organized, and ready to learn.",
+            "body": "Each classroom supports participation, reading, teamwork, and focused practice. Layout and materials adapt by age to support development at every stage.",
+            "imagenes": [
+              {
+                "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+                "alt": "Interior architecture with natural light"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Modern building interior space"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1496307653780-42ee777d4833?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Hallway or interior area of a building"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Contemporary architectural structure or facade"
+              }
+            ]
+          },
+          {
+            "id": "laboratorios",
+            "titulo": "Labs and technology",
+            "lead": "Spaces to experiment, code, and learn with structure: science, robotics, and digital resources.",
+            "body": "Hands-on work strengthens critical thinking. In labs, students tackle guided challenges, record results, and prototype, document, and present projects.",
+            "imagenes": [
+              {
+                "src": "https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+                "alt": "Modern building with spacious interiors"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Architectural interior detail"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Architectural lines and structures"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Contemporary building exterior"
+              }
+            ]
+          },
+          {
+            "id": "receso",
+            "titulo": "Recess and community areas",
+            "lead": "Courtyards and open spaces to move, breathe, and connect—safely.",
+            "body": "Break time also teaches: respectful community, active play, and healthy habits. Shared areas support smooth transitions between classes, clubs, and activities.",
+            "imagenes": [
+              {
+                "src": "https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+                "alt": "Building and outdoor courtyard reference"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Outdoor building space with natural light"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1431578500526-4d9613015464?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Courtyard or plaza reference for gathering"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Spacious indoor common-area reference"
+              }
+            ]
+          },
+          {
+            "id": "preescolar",
+            "titulo": "Preschool play areas",
+            "lead": "Play zones to explore with confidence: movement, coordination, and discovery.",
+            "body": "In preschool, space is part of learning. Play structures and corners support motor skills, imagination, and community, with clear routines and supervision.",
+            "imagenes": [
+              {
+                "src": "https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+                "alt": "Bright interior space reference"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Outdoor courtyard architecture reference"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Interior design and architectural details"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Architectural forms and structures reference"
+              }
+            ]
+          },
+          {
+            "id": "cafeteria",
+            "titulo": "Cafeteria",
+            "lead": "A comfortable place to refuel and connect.",
+            "body": "The cafeteria supports healthy habits and community. It’s a meeting point for students across levels, with clear schedules that keep the day flowing smoothly.",
+            "imagenes": [
+              {
+                "src": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+                "alt": "Indoor area with tables as cafeteria reference"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Modern interior space reference"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1496307653780-42ee777d4833?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Building hallway interior reference"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Contemporary building exterior reference"
+              }
+            ]
+          }
+        ]
+      },
+      "services": {
+        "pageTitle": "Services",
+        "hero": {
+          "imageAlt": "School services and support for students and families",
+          "eyebrow": "About us",
+          "title": "Support that helps every day",
+          "description": "Services and guidance that strengthen the school experience with clarity and care.",
+          "meta": "Family support · Guidance · Communication"
+        },
+        "viewDetails": "View details",
+        "hideDetails": "Hide details",
+        "details": {
+          "comedor": {
+            "menusTitle": "Sample weekly menus",
+            "menuItems": [
+              "Monday: vegetable broth, baked chicken milanese with mash, seasonal fruit, and water",
+              "Tuesday: whole‑wheat pasta with tomato and vegetable sauce, mixed salad, sugar‑free gelatin, and water",
+              "Wednesday: red rice, steamed fish with lemon, steamed vegetables, fruit, and water",
+              "Thursday: vegetable soup, crispy tacos (potato or chicken), refried beans, salad, and water",
+              "Friday: corn cream soup, stuffed chicken breast with salad, fruit, and water"
+            ],
+            "nutritionTitle": "Healthy eating in the cafeteria",
+            "nutritionBody": "A well‑planned school cafeteria supports focus, steady energy, and lifelong habits. We emphasize balanced preparation, variety across food groups, age‑appropriate portions, and good hydration. When possible, we limit added sugars and ultra‑processed items, prioritizing home‑style cooking and menu visibility for families."
+          },
+          "extensionHorario": {
+            "scheduleHighlight": "By program, hours are extended from 2:00 p.m. to 5:00 p.m.",
+            "scheduleBody": "This service helps families balance schedules while keeping students safe: extra time is supervised with age‑appropriate, playful, formative activities.",
+            "scheduleBullets": [
+              "Clear group routines for the extended window",
+              "Coordination with teachers and student-life teams",
+              "Communication on arrivals, departures, and authorized guardians"
+            ]
+          },
+          "diferentesNiveles": {
+            "extraParagraphs": [
+              "When siblings are in different grades, logistics multiply—timelines, messages, and paperwork can pile up. We help centralize information and guide families to reduce friction."
+            ],
+            "extraBullets": [
+              "Guidance to align calendars across levels",
+              "Contact points for academic and administrative questions",
+              "Support during transitions (new level or new school year)"
+            ]
+          },
+          "puertasAbiertas": {
+            "openDoorBullets": [
+              "Scheduled conversations with academic and administrative coordination",
+              "Clear explanation of policies, assessment, and family communication",
+              "Tours of key campus areas (per institutional calendar)",
+              "Guidance on paperwork, payments, scholarships, and documentation when applicable",
+              "Answers on community life, support channels, and reporting",
+              "Follow‑up with written agreements when needed"
+            ]
+          }
+        },
+        "serviceImages": {
+          "comedor": {
+            "alt": "School cafeteria space reference"
+          },
+          "extensionHorario": {
+            "alt": "Classroom or study space reference for extended hours"
+          },
+          "diferentesNiveles": {
+            "alt": "Hallway or transition area reference for children in different levels"
+          },
+          "puertasAbiertas": {
+            "alt": "Entrance or facade reference for an open-door school"
+          }
+        },
+        "services": [
+          {
+            "id": "comedor",
+            "title": "Cafeteria",
+            "description": "A comfortable place to refuel, with clear time slots for each group.",
+            "bullets": [
+              "Schedules organized by level",
+              "Comfortable environment to eat and connect",
+              "Routines that promote order and hygiene"
+            ]
+          },
+          {
+            "id": "extensionHorario",
+            "title": "Extended hours",
+            "description": "Support for families who need flexibility: supervised time and activities on campus.",
+            "bullets": [
+              "Controlled check-in and pick-up",
+              "Calm, supervised activities",
+              "Clear communication with families"
+            ]
+          },
+          {
+            "id": "diferentesNiveles",
+            "title": "Children in different levels or grades",
+            "description": "We help families organize when siblings are in different levels, with coordination and communication that makes the day simpler.",
+            "bullets": [
+              "Coordinated schedules and routines",
+              "Centralized communication channels",
+              "Support during transitions between levels"
+            ]
+          },
+          {
+            "id": "puertasAbiertas",
+            "title": "Open-door school",
+            "description": "We believe in transparency and a strong family partnership: spaces to ask questions, support each process, and build trust.",
+            "bullets": [
+              "Availability and listening for families",
+              "Clear follow-up and agreements",
+              "A culture of community and closeness"
+            ]
+          }
+        ]
+      },
+      "students": {
+        "pageTitle": "Our students",
+        "hero": {
+          "imageAlt": "IEX students sharing their school experience",
+          "eyebrow": "About us",
+          "title": "School life in students’ own words",
+          "description": "Perspectives from different levels: what students value about IEX, the classroom, and the community.",
+          "meta": "Student voices · Opinions · Illustrative photography"
+        },
+        "intro": {
+          "title": "Student voices",
+          "lead": "Each level has its rhythm; here we share representative thoughts from preschool through high school.",
+          "body": "These are opinion-style testimonials (not verbatim interviews): they reflect common motivations without exposing real personal data."
+        },
+        "profiles": {
+          "preescolar": {
+            "name": "Lucía M.",
+            "role": "Preschool",
+            "imageAlt": "Illustrative portrait of a preschool student",
+            "opinionLead": "I like coming to school because we play, sing, and try new things without being scared.",
+            "opinionBody": "In class we have purposeful play and story time. I feel cared for when the teacher explains calmly and when classmates share. My favorite part is going outside and learning with my hands.",
+            "highlights": [
+              "Clear routines that help me feel safe",
+              "Activities with colors, music, and movement",
+              "Teachers who listen when I have questions"
+            ]
+          },
+          "primaria": {
+            "name": "Diego R.",
+            "role": "Elementary",
+            "imageAlt": "Illustrative portrait of an elementary student",
+            "opinionLead": "I learn things I can explain to my family at dinner.",
+            "opinionBody": "We do group projects and sometimes we disagree—and we still have to agree. I like reading aloud because I’m less afraid of mistakes. Teachers are demanding but also help when we get stuck.",
+            "highlights": [
+              "Reading and math with real-life examples",
+              "Projects where everyone contributes ideas",
+              "A space where I can ask without feeling judged"
+            ]
+          },
+          "secundaria": {
+            "name": "Valentina S.",
+            "role": "Middle school",
+            "imageAlt": "Illustrative portrait of a middle school student",
+            "opinionLead": "You learn to get organized because there are many subjects—but there’s room for hobbies too.",
+            "opinionBody": "I value that it’s not only memorizing: sometimes we research, debate, and present. Clubs give me a break without dropping sports. With friends, we feel peer life improves when rules are clear and there’s mediation.",
+            "highlights": [
+              "Tutoring that helps ground personal goals",
+              "Lab work and challenges that connect theory to practice",
+              "Spaces for sports and healthy community life"
+            ]
+          },
+          "bachillerato": {
+            "name": "Mateo G.",
+            "role": "High school",
+            "imageAlt": "Illustrative portrait of a high school student",
+            "opinionLead": "I stayed because I feel prepared for something bigger than one test.",
+            "opinionBody": "The pace is demanding, but feedback is honest. I like when teachers ask us to argue, not just repeat formulas. Practice exams reduced fear of the unknown and clarified my university plan.",
+            "highlights": [
+              "Mock exams and follow-up without shaming anyone who struggles",
+              "Projects that teach research and stronger writing",
+              "Close mentoring for university preparation decisions"
+            ]
+          }
+        }
+      },
+      "familyIex": {
+        "pageTitle": "IEX family",
+        "hero": {
+          "imageAlt": "Parents connected to the IEX community",
+          "eyebrow": "About us",
+          "title": "Alumni who now educate as parents",
+          "description": "Parents who studied at IEX share why they trust the school for their children.",
+          "meta": "Family stories · Alumni · Illustrative photography"
+        },
+        "intro": {
+          "title": "Why we return as parents",
+          "lead": "Being an alum changes your lens: you value long-term consistency and human care across the years.",
+          "body": "These are representative testimonials about common motivations; they don’t replace official admissions information or individual guarantees."
+        },
+        "profiles": {
+          "ana": {
+            "name": "Ana P.",
+            "role": "Alumna · Parent",
+            "imageAlt": "Illustrative portrait of an alumna parent",
+            "opinionLead": "I came back with my children because I know what it feels like to grow up here.",
+            "opinionBody": "What I value most is the blend of academic rigor and guidance. I received support at key moments and today I appreciate clear channels with coordination. I’m not looking for a school with no homework—I want one that teaches responsibility.",
+            "highlights": [
+              "I trust the continuity across school levels",
+              "Communication home is concrete—not just formalities",
+              "Values and community life are treated seriously, not as slogans"
+            ]
+          },
+          "carlos": {
+            "name": "Carlos E.",
+            "role": "Alumnus · Parent",
+            "imageAlt": "Illustrative portrait of an alumnus parent",
+            "opinionLead": "I chose IEX again because I want strong foundations and judgment for my kids.",
+            "opinionBody": "As a student I learned to study with method more than cramming overnight. I see the same now: projects and rubrics help students understand where they stand. A safe environment and teachers who take ownership matter to me.",
+            "highlights": [
+              "Emphasis on study habits and independent work",
+              "Projects and presentations that grow communication",
+              "An orderly setting with clear community rules"
+            ]
+          },
+          "mariana": {
+            "name": "Mariana L.",
+            "role": "Alumna · Parent",
+            "imageAlt": "Illustrative portrait of an alumna parent",
+            "opinionLead": "To me IEX means community—it’s not just walk in, walk out.",
+            "opinionBody": "What convinces me as a mom is follow-up when a child needs extra support or when peers clash. You can tell when a school invests in counseling instead of leaving everything to chance. The alumni network also builds confidence—you belong.",
+            "highlights": [
+              "Support when motivation dips or conflicts appear",
+              "Activities that involve family without overloading the calendar",
+              "Belonging I’ve felt since I was a student"
+            ]
+          }
+        }
+      }
+    },
     "workshops": {
       "pageTitle": "Afternoon workshops",
       "hero": {

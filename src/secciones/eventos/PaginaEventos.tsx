@@ -2,10 +2,13 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 import { TituloSeccion } from "@/components/TituloSeccion";
+import { BotonAccion } from "@/components/BotonAccion";
+import { Reveal } from "@/components/Reveal";
 import {
   eventosPasados,
   imagenCompromisoCultural,
   imagenHeroEventoPrincipal,
+  imagenMagnoEvento,
 } from "@/secciones/eventos/datosEventos";
 
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -101,7 +104,8 @@ export function PaginaEventos() {
         aria-labelledby="events-commitment-heading"
       >
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
-          <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+          <Reveal y={22}>
+            <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
             <div className="overflow-hidden rounded-2xl shadow-lg ring-1 ring-border/30">
               <img
                 src={imagenCompromisoCultural}
@@ -129,8 +133,75 @@ export function PaginaEventos() {
                 {t("events.commitment.body")}
               </p>
             </div>
-          </div>
+            </div>
+          </Reveal>
         </div>
+      </section>
+
+      <section className="w-full border-t border-border/60">
+        <motion.div
+          className="relative overflow-hidden bg-iex-navy"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 0.35, ease }}
+          aria-label={t("events.grandFinal.ariaLabel")}
+        >
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: `url(${imagenMagnoEvento})` }}
+            aria-hidden
+          />
+          <div
+            className="absolute inset-0 bg-gradient-to-r from-iex-navy/95 via-iex-navy/70 to-iex-navy/35"
+            aria-hidden
+          />
+          <div className="relative z-10 mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+            <Reveal y={20}>
+              <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-12">
+                <div className="lg:col-span-7">
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80">
+                    {t("events.grandFinal.eyebrow")}
+                  </p>
+                  <h2 className="mt-3 text-3xl font-bold tracking-tight text-white md:text-4xl">
+                    {t("events.grandFinal.title")}
+                  </h2>
+                  <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/90 md:text-lg">
+                    {t("events.grandFinal.description")}
+                  </p>
+                  <p className="mt-4 text-sm font-medium text-white/80">
+                    {t("events.grandFinal.meta")}
+                  </p>
+                </div>
+                <div className="lg:col-span-5">
+                  <div className="rounded-2xl border border-white/15 bg-white/10 p-6 backdrop-blur-md">
+                    <h3 className="text-base font-bold text-white md:text-lg">
+                      {t("events.grandFinal.cardTitle")}
+                    </h3>
+                    <ul className="mt-4 space-y-2 text-sm text-white/85 md:text-base">
+                      {(t("events.grandFinal.bullets", { returnObjects: true }) as string[]).map(
+                        (b) => (
+                          <li key={b} className="flex items-start gap-2.5">
+                            <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-iex-accent" />
+                            <span className="leading-relaxed">{b}</span>
+                          </li>
+                        ),
+                      )}
+                    </ul>
+                    <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+                      <BotonAccion href="/#contacto" variant="white">
+                        {t("events.grandFinal.ctaPrimary")}
+                      </BotonAccion>
+                      <BotonAccion href="/admisiones" variant="outline">
+                        {t("events.grandFinal.ctaSecondary")}
+                      </BotonAccion>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Reveal>
+          </div>
+        </motion.div>
       </section>
     </main>
   );

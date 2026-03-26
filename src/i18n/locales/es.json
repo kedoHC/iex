@@ -9,9 +9,14 @@
     "admissions": "Admisiones",
     "academicOffer": "Oferta académica",
     "menuGroupAcademic": "Académica",
+    "menuGroupAbout": "Conócenos",
     "menuGroupAdmissions": "Admisiones y becas",
     "workshops": "Talleres vespertinos",
     "epic": "EPIC",
+    "facilities": "Nuestras instalaciones",
+    "services": "Servicios",
+    "students": "Nuestros alumnos",
+    "familyIex": "Familia IEX",
     "teachers": "Docentes",
     "admissionsPage": "Proceso de admisión",
     "scholarshipsPage": "Programa de becas",
@@ -439,6 +444,22 @@
       "imageAlt": "Estudiantes en actividad artística y cultural en el colegio",
       "lead": "En el IEX creemos que la educación integral incluye el arte, la identidad y el respeto por la diversidad. Nuestros eventos y proyectos culturales buscan que cada alumno descubra su voz, colabore con otros y se vincule de manera consciente con la comunidad.",
       "body": "Promovemos lectura, música, teatro, exposiciones y jornadas de servicio como parte del currículo y de la vida escolar. Así formamos ciudadanos sensibles, críticos y solidarios, alineados con los valores de la institución y con un compromiso social real más allá del aula."
+    },
+    "grandFinal": {
+      "ariaLabel": "Magno evento de fin de cursos con puesta en escena en el auditorio",
+      "eyebrow": "Magno evento",
+      "title": "Gala de fin de cursos: una puesta en escena que une a toda la comunidad",
+      "description": "Al final del ciclo escolar, el auditorio se transforma: estudiantes de todos los niveles presentan una puesta en escena que celebra el aprendizaje, la disciplina y el trabajo en equipo.",
+      "meta": "Auditorio · Participación por niveles · Presentación final",
+      "cardTitle": "Por qué este evento importa",
+      "bullets": [
+        "Reconoce el esfuerzo del alumnado y su proceso durante el ciclo",
+        "Fortalece seguridad escénica, expresión y colaboración",
+        "Integra a familias y comunidad en un momento memorable",
+        "Cierra el curso con orgullo, identidad y pertenencia"
+      ],
+      "ctaPrimary": "Quiero asistir",
+      "ctaSecondary": "Ver admisiones"
     }
   },
   "gallery": {
@@ -498,6 +519,370 @@
     "mapTitle": "Ubicación"
   },
   "pages": {
+    "about": {
+      "facilities": {
+        "pageTitle": "Nuestras instalaciones",
+        "photoHint": "Imágenes de referencia.",
+        "hero": {
+          "imageAlt": "Arquitectura y espacios construidos como referencia de instalaciones",
+          "eyebrow": "Conócenos",
+          "title": "Espacios que acompañan cada etapa",
+          "description": "Aulas, áreas comunes y ambientes pensados para aprender, explorar y convivir con seguridad.",
+          "meta": "Aulas · Áreas verdes · Espacios de trabajo colaborativo"
+        },
+        "sections": [
+          {
+            "id": "salones",
+            "titulo": "Salones de clase por nivel",
+            "lead": "Espacios para preescolar, primaria, secundaria y bachillerato: luminosos, ordenados y listos para aprender.",
+            "body": "Cada salón está pensado para favorecer participación, lectura, trabajo en equipo y momentos de concentración. Adecuamos distribución y materiales según la edad para acompañar el desarrollo en cada etapa.",
+            "imagenes": [
+              {
+                "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+                "alt": "Interior con arquitectura y luz natural"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Espacio interior moderno de edificio"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1496307653780-42ee777d4833?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Pasillo o área interior de un edificio"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Fachada o estructura arquitectónica contemporánea"
+              }
+            ]
+          },
+          {
+            "id": "laboratorios",
+            "titulo": "Laboratorios y tecnología",
+            "lead": "Ambientes para experimentar, programar y aprender con método: ciencia, robótica y recursos digitales.",
+            "body": "La práctica fortalece el pensamiento crítico. En laboratorios se trabaja con retos guiados, registro de resultados y espacios para prototipar, documentar y presentar proyectos.",
+            "imagenes": [
+              {
+                "src": "https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+                "alt": "Edificio moderno con interiores amplios"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Detalle de espacio interior con diseño arquitectónico"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Estructuras y líneas arquitectónicas"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Exterior de edificio con diseño contemporáneo"
+              }
+            ]
+          },
+          {
+            "id": "receso",
+            "titulo": "Áreas de receso y convivencia",
+            "lead": "Patios y espacios abiertos para moverse, respirar y convivir con seguridad.",
+            "body": "El descanso también educa: promovemos convivencia respetuosa, juego activo y hábitos saludables. Las áreas comunes permiten transiciones claras entre clases, clubes y actividades.",
+            "imagenes": [
+              {
+                "src": "https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+                "alt": "Edificio y patio exterior como referencia"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Espacio exterior de un edificio con luz natural"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1431578500526-4d9613015464?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Patio o plaza urbana como referencia de convivencia"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Zona interior amplia como referencia de área común"
+              }
+            ]
+          },
+          {
+            "id": "preescolar",
+            "titulo": "Juegos y espacios para preescolar",
+            "lead": "Zonas de juego para explorar con confianza: movimiento, coordinación y descubrimiento.",
+            "body": "En preescolar el espacio es parte del aprendizaje. Los juegos y rincones favorecen motricidad, imaginación y convivencia, con supervisión y rutinas claras para el cuidado del entorno.",
+            "imagenes": [
+              {
+                "src": "https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+                "alt": "Espacio interior luminoso como referencia"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Patio exterior con arquitectura moderna"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Interior con madera y diseño arquitectónico"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Formas y estructuras arquitectónicas como referencia"
+              }
+            ]
+          },
+          {
+            "id": "cafeteria",
+            "titulo": "Cafetería",
+            "lead": "Un espacio cómodo para recargar energía y convivir.",
+            "body": "La cafetería apoya hábitos de alimentación y convivencia. Es un punto de encuentro para estudiantes de distintos niveles, con tiempos claros para mantener un ritmo ordenado durante el día.",
+            "imagenes": [
+              {
+                "src": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+                "alt": "Área interior con mesas como referencia de cafetería"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Espacio interior moderno como referencia"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1496307653780-42ee777d4833?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Pasillo interior de edificio como referencia"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixlib=rb-4.1.0&auto=format&fit=crop&w=900&q=80",
+                "alt": "Exterior de edificio contemporáneo como referencia"
+              }
+            ]
+          }
+        ]
+      },
+      "services": {
+        "pageTitle": "Servicios",
+        "hero": {
+          "imageAlt": "Servicios escolares y acompañamiento para estudiantes y familias",
+          "eyebrow": "Conócenos",
+          "title": "Apoyos que facilitan el día a día",
+          "description": "Servicios y acompañamientos que fortalecen la experiencia escolar con claridad y cercanía.",
+          "meta": "Atención a familias · Acompañamiento · Comunicación"
+        },
+        "viewDetails": "Ver detalles",
+        "hideDetails": "Ocultar detalles",
+        "details": {
+          "comedor": {
+            "menusTitle": "Ejemplos de menús semanales",
+            "menuItems": [
+              "Lunes: consomé de vegetales, milanesa de pollo al horno con puré, fruta de temporada y agua natural",
+              "Martes: pasta integral con salsa de jitomate y verduras, ensalada mixta, gelatina sin azúcar y agua natural",
+              "Miércoles: arroz rojo, pescado al vapor con limón, verduras al vapor, fruta y agua natural",
+              "Jueves: sopa de verduras, tacos dorados de papa o pollo, frijoles refritos, ensalada y agua natural",
+              "Viernes: crema de elote, pechuga rellena con ensalada, fruta y agua natural"
+            ],
+            "nutritionTitle": "Alimentación saludable en el comedor",
+            "nutritionBody": "Un comedor escolar bien orientado favorece concentración, energía estable y hábitos de vida. Priorizamos preparaciones balanceadas, variedad de grupos alimenticios, hidratación adecuada y porciones adecuadas a la edad. Evitamos exceso de azúcares añadidos y ultraprocesados cuando sea posible, con foco en cocina casera y visibilidad del menú para las familias."
+          },
+          "extensionHorario": {
+            "scheduleHighlight": "Por programa, el horario se extiende de 2:00 p.m. a 5:00 p.m.",
+            "scheduleBody": "Es un servicio para apoyar la conciliación familiar sin sacrificar la seguridad del alumnado: el tiempo adicional queda acompañado y con actividades lúdico-formativas acordes a la edad.",
+            "scheduleBullets": [
+              "Agrupaciones y rutinas claras por horario",
+              "Coordinación con docentes y vida escolar",
+              "Comunicación sobre llegadas, salidas y responsables autorizados"
+            ]
+          },
+          "diferentesNiveles": {
+            "extraParagraphs": [
+              "Cuando hay hermanos en distintos grados, la logística escolar puede complicarse: horarios, mensajes y trámites se suman. Nuestro enfoque es centralizar información y acompañar a la familia para reducir fricciones."
+            ],
+            "extraBullets": [
+              "Orientación para alinear calendarios por nivel",
+              "Puntos de contacto para dudas académicas y administrativas",
+              "Seguimiento en momentos de cambio (nuevo nivel o nuevo ciclo)"
+            ]
+          },
+          "puertasAbiertas": {
+            "openDoorBullets": [
+              "Espacios programados para conversar con coordinación académica y administrativa",
+              "Explicación clara de normas, evaluación y comunicación con familias",
+              "Visita a áreas clave del plantel (según calendario institucional)",
+              "Orientación sobre trámites, pagos, becas y documentación cuando aplique",
+              "Atención a dudas sobre convivencia, acompañamiento y canal de reporte",
+              "Seguimiento posterior con acuerdos por escrito cuando corresponda"
+            ]
+          }
+        },
+        "serviceImages": {
+          "comedor": {
+            "alt": "Espacio de comedor escolar como referencia"
+          },
+          "extensionHorario": {
+            "alt": "Aula o espacio de trabajo como referencia para extensión de horario"
+          },
+          "diferentesNiveles": {
+            "alt": "Pasillo o área de transición como referencia para alumnos en diferentes niveles"
+          },
+          "puertasAbiertas": {
+            "alt": "Entrada o fachada como referencia de escuela de puertas abiertas"
+          }
+        },
+        "services": [
+          {
+            "id": "comedor",
+            "title": "Comedor",
+            "description": "Un espacio para recargar energía con un ambiente cómodo y tiempos claros para cada grupo.",
+            "bullets": [
+              "Horarios organizados por nivel",
+              "Ambiente cómodo para comer y convivir",
+              "Rutinas que promueven orden e higiene"
+            ]
+          },
+          {
+            "id": "extensionHorario",
+            "title": "Extensión de horario",
+            "description": "Apoyo para familias que requieren mayor flexibilidad: acompañamiento y actividades supervisadas dentro del plantel.",
+            "bullets": [
+              "Entrada y salida con control",
+              "Actividades tranquilas y supervisadas",
+              "Comunicación clara con las familias"
+            ]
+          },
+          {
+            "id": "diferentesNiveles",
+            "title": "Hijos en diferentes niveles o grados",
+            "description": "Facilitamos la organización familiar cuando hay hermanos en distintos niveles, con coordinación y comunicación para que el día sea más simple.",
+            "bullets": [
+              "Coordinación de horarios y rutinas",
+              "Canales de comunicación centralizados",
+              "Acompañamiento en transiciones entre niveles"
+            ]
+          },
+          {
+            "id": "puertasAbiertas",
+            "title": "Escuela de puertas abiertas",
+            "description": "Creemos en la transparencia y el vínculo con la familia: espacios para resolver dudas, acompañar procesos y construir confianza.",
+            "bullets": [
+              "Atención y escucha para familias",
+              "Seguimiento y acuerdos claros",
+              "Cultura de comunidad y cercanía"
+            ]
+          }
+        ]
+      },
+      "students": {
+        "pageTitle": "Nuestros alumnos",
+        "hero": {
+          "imageAlt": "Alumnos del IEX compartiendo su experiencia en la escuela",
+          "eyebrow": "Conócenos",
+          "title": "La escuela contada por quienes la viven cada día",
+          "description": "Opiniones y vivencias de estudiantes de distintos niveles: lo que valoran del IEX, del aula y de la comunidad.",
+          "meta": "Voces del alumnado · Opiniones · Fotografía ilustrativa"
+        },
+        "intro": {
+          "title": "Voces del alumnado",
+          "lead": "Cada nivel tiene su ritmo y su manera de aprender; aquí compartimos pensamientos representativos de preescolar a bachillerato.",
+          "body": "Los textos son testimonios de estilo opinativo (no entrevistas verbatim): buscan reflejar motivaciones comunes sin exponer datos personales reales."
+        },
+        "profiles": {
+          "preescolar": {
+            "name": "Lucía M.",
+            "role": "Preescolar",
+            "imageAlt": "Retrato ilustrativo de alumna de preescolar",
+            "opinionLead": "Me gusta ir a la escuela porque juego, canto y conozco cosas nuevas sin miedo.",
+            "opinionBody": "En el salón hay tiempo para jugar con propósito y para escuchar cuentos. Me siento cuidada cuando la maestra explica con calma y cuando mis compañeros comparten juguetes. Lo que más me gusta es cuando salimos al patio y aprendemos cosas con las manos.",
+            "highlights": [
+              "Rutinas claras que me ayudan a sentirme segura",
+              "Actividades con colores, música y movimiento",
+              "Maestras que me escuchan cuando tengo dudas"
+            ]
+          },
+          "primaria": {
+            "name": "Diego R.",
+            "role": "Primaria",
+            "imageAlt": "Retrato ilustrativo de alumno de primaria",
+            "opinionLead": "Aprendo cosas que me sirven para explicarle cosas a mi familia en la mesa.",
+            "opinionBody": "En clase hacemos proyectos en equipo y a veces tenemos que ponernos de acuerdo aunque no pensemos igual. Me gusta leer en voz alta porque ya no me da tanta pena equivocarme. Siento que las maestras nos exigen, pero también nos apoyan cuando nos trabamos.",
+            "highlights": [
+              "Lectura y matemáticas con ejemplos de la vida real",
+              "Proyectos donde todos aportamos ideas",
+              "Ambiente donde puedo preguntar sin sentirme expuesto"
+            ]
+          },
+          "secundaria": {
+            "name": "Valentina S.",
+            "role": "Secundaria",
+            "imageAlt": "Retrato ilustrativo de alumna de secundaria",
+            "opinionLead": "Aquí uno aprende a organizarse porque hay muchas materias, pero también hay espacio para hobbies.",
+            "opinionBody": "Lo que valoro es que no todo es memorizar: en algunas clases investigamos, debatimos y exponemos. Los clubes me permiten desconectar un rato sin dejar la escarpa. Mis amigos y yo opinamos que el trato entre alumnos mejora cuando hay reglas claras y mediación.",
+            "highlights": [
+              "Tutorías que ayudan a aterrizar metas personales",
+              "Laboratorio y retos que conectan teoría con práctica",
+              "Espacios para deporte y convivencia sana"
+            ]
+          },
+          "bachillerato": {
+            "name": "Mateo G.",
+            "role": "Bachillerato",
+            "imageAlt": "Retrato ilustrativo de alumno de bachillerato",
+            "opinionLead": "Elegí seguir en un lugar donde siento que me preparan para algo más grande que un examen.",
+            "opinionBody": "El ritmo es exigente, pero también hay retroalimentación honesta. Me gusta cuando el profesor exige argumentar, no solo repetir fórmulas. Los exámenes de práctica me quitaron el miedo a lo desconocido y ahora tengo un plan para la universidad más claro.",
+            "highlights": [
+              "Simulacros y seguimiento sin humillar al que falla",
+              "Proyectos que enseñan a investigar y escribir mejor",
+              "Mentoría cercana para decisiones de preparación universitaria"
+            ]
+          }
+        }
+      },
+      "familyIex": {
+        "pageTitle": "Familia IEX",
+        "hero": {
+          "imageAlt": "Padres de familia vinculados al IEX",
+          "eyebrow": "Conócenos",
+          "title": "Exalumnos que ahora educan en familia",
+          "description": "Padres y madres que estudiaron en el IEX comparten por qué confían en la escuela para sus hijos.",
+          "meta": "Historias de familia · Exalumnos · Fotografía ilustrativa"
+        },
+        "intro": {
+          "title": "Por qué volvemos como padres",
+          "lead": "Ser exalumno cambia la mirada: se valora la trayectoria, la consistencia y el trato humano a lo largo de los años.",
+          "body": "Estas opiniones son testimonios orientativos que reflejan motivaciones frecuentes; no reemplazan información oficial de admisiones ni garantizan condiciones individuales."
+        },
+        "profiles": {
+          "ana": {
+            "name": "Ana P.",
+            "role": "Exalumna · Madre de familia",
+            "imageAlt": "Retrato ilustrativo de madre exalumna del IEX",
+            "opinionLead": "Regresé con mis hijos porque sé cómo se siente crecer aquí.",
+            "opinionBody": "Lo que más valoro es la combinación de exigencia académica y acompañamiento. Yo recibí orientación en momentos clave y hoy aprecio que haya canales claros para hablar con coordinación. No busco una escuela “sin tareas”; busco una que enseñe a responsabilizarse.",
+            "highlights": [
+              "Confío en la continuidad pedagógica entre niveles",
+              "La comunicación con casa es concreta, no solo formalidades",
+              "Valores y convivencia tratados con seriedad, no como slogan"
+            ]
+          },
+          "carlos": {
+            "name": "Carlos E.",
+            "role": "Exalumno · Padre de familia",
+            "imageAlt": "Retrato ilustrativo de padre exalumno del IEX",
+            "opinionLead": "Elegí el IEX otra vez porque quiero que mis hijos tengan bases sólidas y criterio.",
+            "opinionBody": "Cuando era estudiante aprendí a estudiar con método más que a memorizar de un día para otro. Ahora observo lo mismo en los hijos de mis amigos: los proyectos y las rúbricas enseñan a ubicarse. Me importa un entorno seguro y profesores que dan la cara.",
+            "highlights": [
+              "Énfasis en hábitos de estudio y trabajo autónomo",
+              "Proyectos y exposiciones que desarrollan comunicación",
+              "Entorno ordenado y reglas claras de convivencia"
+            ]
+          },
+          "mariana": {
+            "name": "Mariana L.",
+            "role": "Exalumna · Madre de familia",
+            "imageAlt": "Retrato ilustrativo de madre exalumna del IEX",
+            "opinionLead": "Para mí el IEX significa comunidad: no es solo entrar y salir del salón.",
+            "opinionBody": "Lo que me convence como mamá es el seguimiento cuando un hijo necesita apoyo extra o cuando hay un conflicto entre compañeros. Se nota cuando una escuela invierte en orientación y no deja todo al azar. Además, la red de egresados da confianza: hay un sentido de pertenencia.",
+            "highlights": [
+              "Acompañamiento cuando aparecen bajones o conflictos",
+              "Actividades que integran familia sin saturar la agenda",
+              "Orgullo de pertenencia que vengo sintiendo desde estudiante"
+            ]
+          }
+        }
+      }
+    },
     "workshops": {
       "pageTitle": "Talleres vespertinos",
       "hero": {

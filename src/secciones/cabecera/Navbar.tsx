@@ -18,12 +18,16 @@ import {
 } from "@/interfaces/cabecera";
 
 const RUTAS_MENU = new Set([
-  "/eventos",
   "/talleres-vespertinos",
-  "/docentes",
   "/admisiones",
   "/becas",
   "/programas/epic",
+  "/conocenos/instalaciones",
+  "/conocenos/servicios",
+  "/conocenos/alumnos",
+  "/conocenos/familia-iex",
+  "/docentes",
+  "/eventos",
 ]);
 
 function enlaceEsActual(href: string, pathname: string, hash: string): boolean {
@@ -56,7 +60,18 @@ const enlacesPorDefecto: EnlaceNav[] = [
       { href: "/talleres-vespertinos", labelKey: "nav.workshops" },
     ],
   },
-  { href: "/docentes", labelKey: "nav.teachers" },
+  {
+    id: "conocenos",
+    labelKey: "nav.menuGroupAbout",
+    children: [
+      { href: "/conocenos/instalaciones", labelKey: "nav.facilities" },
+      { href: "/conocenos/servicios", labelKey: "nav.services" },
+      { href: "/conocenos/alumnos", labelKey: "nav.students" },
+      { href: "/conocenos/familia-iex", labelKey: "nav.familyIex" },
+      { href: "/docentes", labelKey: "nav.teachers" },
+      { href: "/eventos", labelKey: "nav.events" },
+    ],
+  },
   {
     id: "admisiones-becas",
     labelKey: "nav.menuGroupAdmissions",
@@ -65,7 +80,6 @@ const enlacesPorDefecto: EnlaceNav[] = [
       { href: "/becas", labelKey: "nav.scholarshipsPage" },
     ],
   },
-  { href: "/eventos", labelKey: "nav.events" },
   { href: "/#contacto", labelKey: "nav.contact" },
 ];
 
